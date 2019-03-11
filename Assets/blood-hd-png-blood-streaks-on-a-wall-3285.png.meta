@@ -1,0 +1,4037 @@
+fileFormatVersion: 2
+guid: 1471b7397bf840446bda2194e9604475
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blood-hd-png-blood-streaks-on-a-wall-3285_0
+    21300002: blood-hd-png-blood-streaks-on-a-wall-3285_1
+    21300004: blood-hd-png-blood-streaks-on-a-wall-3285_2
+    21300006: blood-hd-png-blood-streaks-on-a-wall-3285_3
+    21300008: blood-hd-png-blood-streaks-on-a-wall-3285_4
+    21300010: blood-hd-png-blood-streaks-on-a-wall-3285_5
+    21300012: blood-hd-png-blood-streaks-on-a-wall-3285_6
+    21300014: blood-hd-png-blood-streaks-on-a-wall-3285_7
+    21300016: blood-hd-png-blood-streaks-on-a-wall-3285_8
+    21300018: blood-hd-png-blood-streaks-on-a-wall-3285_9
+    21300020: blood-hd-png-blood-streaks-on-a-wall-3285_10
+    21300022: blood-hd-png-blood-streaks-on-a-wall-3285_11
+    21300024: blood-hd-png-blood-streaks-on-a-wall-3285_12
+    21300026: blood-hd-png-blood-streaks-on-a-wall-3285_13
+    21300028: blood-hd-png-blood-streaks-on-a-wall-3285_14
+    21300030: blood-hd-png-blood-streaks-on-a-wall-3285_15
+    21300032: blood-hd-png-blood-streaks-on-a-wall-3285_16
+    21300034: blood-hd-png-blood-streaks-on-a-wall-3285_17
+    21300036: blood-hd-png-blood-streaks-on-a-wall-3285_18
+    21300038: blood-hd-png-blood-streaks-on-a-wall-3285_19
+    21300040: blood-hd-png-blood-streaks-on-a-wall-3285_20
+    21300042: blood-hd-png-blood-streaks-on-a-wall-3285_21
+    21300044: blood-hd-png-blood-streaks-on-a-wall-3285_22
+    21300046: blood-hd-png-blood-streaks-on-a-wall-3285_23
+    21300048: blood-hd-png-blood-streaks-on-a-wall-3285_24
+    21300050: blood-hd-png-blood-streaks-on-a-wall-3285_25
+    21300052: blood-hd-png-blood-streaks-on-a-wall-3285_26
+    21300054: blood-hd-png-blood-streaks-on-a-wall-3285_27
+    21300056: blood-hd-png-blood-streaks-on-a-wall-3285_28
+    21300058: blood-hd-png-blood-streaks-on-a-wall-3285_29
+    21300060: blood-hd-png-blood-streaks-on-a-wall-3285_30
+    21300062: blood-hd-png-blood-streaks-on-a-wall-3285_31
+    21300064: blood-hd-png-blood-streaks-on-a-wall-3285_32
+    21300066: blood-hd-png-blood-streaks-on-a-wall-3285_33
+    21300068: blood-hd-png-blood-streaks-on-a-wall-3285_34
+    21300070: blood-hd-png-blood-streaks-on-a-wall-3285_35
+    21300072: blood-hd-png-blood-streaks-on-a-wall-3285_36
+    21300074: blood-hd-png-blood-streaks-on-a-wall-3285_37
+    21300076: blood-hd-png-blood-streaks-on-a-wall-3285_38
+    21300078: blood-hd-png-blood-streaks-on-a-wall-3285_39
+    21300080: blood-hd-png-blood-streaks-on-a-wall-3285_40
+    21300082: blood-hd-png-blood-streaks-on-a-wall-3285_41
+    21300084: blood-hd-png-blood-streaks-on-a-wall-3285_42
+    21300086: blood-hd-png-blood-streaks-on-a-wall-3285_43
+    21300088: blood-hd-png-blood-streaks-on-a-wall-3285_44
+    21300090: blood-hd-png-blood-streaks-on-a-wall-3285_45
+    21300092: blood-hd-png-blood-streaks-on-a-wall-3285_46
+    21300094: blood-hd-png-blood-streaks-on-a-wall-3285_47
+    21300096: blood-hd-png-blood-streaks-on-a-wall-3285_48
+    21300098: blood-hd-png-blood-streaks-on-a-wall-3285_49
+    21300100: blood-hd-png-blood-streaks-on-a-wall-3285_50
+    21300102: blood-hd-png-blood-streaks-on-a-wall-3285_51
+    21300104: blood-hd-png-blood-streaks-on-a-wall-3285_52
+    21300106: blood-hd-png-blood-streaks-on-a-wall-3285_53
+    21300108: blood-hd-png-blood-streaks-on-a-wall-3285_54
+    21300110: blood-hd-png-blood-streaks-on-a-wall-3285_55
+    21300112: blood-hd-png-blood-streaks-on-a-wall-3285_56
+    21300114: blood-hd-png-blood-streaks-on-a-wall-3285_57
+    21300116: blood-hd-png-blood-streaks-on-a-wall-3285_58
+    21300118: blood-hd-png-blood-streaks-on-a-wall-3285_59
+    21300120: blood-hd-png-blood-streaks-on-a-wall-3285_60
+    21300122: blood-hd-png-blood-streaks-on-a-wall-3285_61
+    21300124: blood-hd-png-blood-streaks-on-a-wall-3285_62
+    21300126: blood-hd-png-blood-streaks-on-a-wall-3285_63
+    21300128: blood-hd-png-blood-streaks-on-a-wall-3285_64
+    21300130: blood-hd-png-blood-streaks-on-a-wall-3285_65
+    21300132: blood-hd-png-blood-streaks-on-a-wall-3285_66
+    21300134: blood-hd-png-blood-streaks-on-a-wall-3285_67
+    21300136: blood-hd-png-blood-streaks-on-a-wall-3285_68
+    21300138: blood-hd-png-blood-streaks-on-a-wall-3285_69
+    21300140: blood-hd-png-blood-streaks-on-a-wall-3285_70
+    21300142: blood-hd-png-blood-streaks-on-a-wall-3285_71
+    21300144: blood-hd-png-blood-streaks-on-a-wall-3285_72
+    21300146: blood-hd-png-blood-streaks-on-a-wall-3285_73
+    21300148: blood-hd-png-blood-streaks-on-a-wall-3285_74
+    21300150: blood-hd-png-blood-streaks-on-a-wall-3285_75
+    21300152: blood-hd-png-blood-streaks-on-a-wall-3285_76
+    21300154: blood-hd-png-blood-streaks-on-a-wall-3285_77
+    21300156: blood-hd-png-blood-streaks-on-a-wall-3285_78
+    21300158: blood-hd-png-blood-streaks-on-a-wall-3285_79
+    21300160: blood-hd-png-blood-streaks-on-a-wall-3285_80
+    21300162: blood-hd-png-blood-streaks-on-a-wall-3285_81
+    21300164: blood-hd-png-blood-streaks-on-a-wall-3285_82
+    21300166: blood-hd-png-blood-streaks-on-a-wall-3285_83
+    21300168: blood-hd-png-blood-streaks-on-a-wall-3285_84
+    21300170: blood-hd-png-blood-streaks-on-a-wall-3285_85
+    21300172: blood-hd-png-blood-streaks-on-a-wall-3285_86
+    21300174: blood-hd-png-blood-streaks-on-a-wall-3285_87
+    21300176: blood-hd-png-blood-streaks-on-a-wall-3285_88
+    21300178: blood-hd-png-blood-streaks-on-a-wall-3285_89
+    21300180: blood-hd-png-blood-streaks-on-a-wall-3285_90
+    21300182: blood-hd-png-blood-streaks-on-a-wall-3285_91
+    21300184: blood-hd-png-blood-streaks-on-a-wall-3285_92
+    21300186: blood-hd-png-blood-streaks-on-a-wall-3285_93
+    21300188: blood-hd-png-blood-streaks-on-a-wall-3285_94
+    21300190: blood-hd-png-blood-streaks-on-a-wall-3285_95
+    21300192: blood-hd-png-blood-streaks-on-a-wall-3285_96
+    21300194: blood-hd-png-blood-streaks-on-a-wall-3285_97
+    21300196: blood-hd-png-blood-streaks-on-a-wall-3285_98
+    21300198: blood-hd-png-blood-streaks-on-a-wall-3285_99
+    21300200: blood-hd-png-blood-streaks-on-a-wall-3285_100
+    21300202: blood-hd-png-blood-streaks-on-a-wall-3285_101
+    21300204: blood-hd-png-blood-streaks-on-a-wall-3285_102
+    21300206: blood-hd-png-blood-streaks-on-a-wall-3285_103
+    21300208: blood-hd-png-blood-streaks-on-a-wall-3285_104
+    21300210: blood-hd-png-blood-streaks-on-a-wall-3285_105
+    21300212: blood-hd-png-blood-streaks-on-a-wall-3285_106
+    21300214: blood-hd-png-blood-streaks-on-a-wall-3285_107
+    21300216: blood-hd-png-blood-streaks-on-a-wall-3285_108
+    21300218: blood-hd-png-blood-streaks-on-a-wall-3285_109
+    21300220: blood-hd-png-blood-streaks-on-a-wall-3285_110
+    21300222: blood-hd-png-blood-streaks-on-a-wall-3285_111
+    21300224: blood-hd-png-blood-streaks-on-a-wall-3285_112
+    21300226: blood-hd-png-blood-streaks-on-a-wall-3285_113
+    21300228: blood-hd-png-blood-streaks-on-a-wall-3285_114
+    21300230: blood-hd-png-blood-streaks-on-a-wall-3285_115
+    21300232: blood-hd-png-blood-streaks-on-a-wall-3285_116
+    21300234: blood-hd-png-blood-streaks-on-a-wall-3285_117
+    21300236: blood-hd-png-blood-streaks-on-a-wall-3285_118
+    21300238: blood-hd-png-blood-streaks-on-a-wall-3285_119
+    21300240: blood-hd-png-blood-streaks-on-a-wall-3285_120
+    21300242: blood-hd-png-blood-streaks-on-a-wall-3285_121
+    21300244: blood-hd-png-blood-streaks-on-a-wall-3285_122
+    21300246: blood-hd-png-blood-streaks-on-a-wall-3285_123
+    21300248: blood-hd-png-blood-streaks-on-a-wall-3285_124
+    21300250: blood-hd-png-blood-streaks-on-a-wall-3285_125
+    21300252: blood-hd-png-blood-streaks-on-a-wall-3285_126
+    21300254: blood-hd-png-blood-streaks-on-a-wall-3285_127
+    21300256: blood-hd-png-blood-streaks-on-a-wall-3285_128
+    21300258: blood-hd-png-blood-streaks-on-a-wall-3285_129
+    21300260: blood-hd-png-blood-streaks-on-a-wall-3285_130
+    21300262: blood-hd-png-blood-streaks-on-a-wall-3285_131
+    21300264: blood-hd-png-blood-streaks-on-a-wall-3285_132
+    21300266: blood-hd-png-blood-streaks-on-a-wall-3285_133
+    21300268: blood-hd-png-blood-streaks-on-a-wall-3285_134
+    21300270: blood-hd-png-blood-streaks-on-a-wall-3285_135
+    21300272: blood-hd-png-blood-streaks-on-a-wall-3285_136
+    21300274: blood-hd-png-blood-streaks-on-a-wall-3285_137
+    21300276: blood-hd-png-blood-streaks-on-a-wall-3285_138
+    21300278: blood-hd-png-blood-streaks-on-a-wall-3285_139
+    21300280: blood-hd-png-blood-streaks-on-a-wall-3285_140
+    21300282: blood-hd-png-blood-streaks-on-a-wall-3285_141
+    21300284: blood-hd-png-blood-streaks-on-a-wall-3285_142
+    21300286: blood-hd-png-blood-streaks-on-a-wall-3285_143
+    21300288: blood-hd-png-blood-streaks-on-a-wall-3285_144
+    21300290: blood-hd-png-blood-streaks-on-a-wall-3285_145
+    21300292: blood-hd-png-blood-streaks-on-a-wall-3285_146
+    21300294: blood-hd-png-blood-streaks-on-a-wall-3285_147
+    21300296: blood-hd-png-blood-streaks-on-a-wall-3285_148
+    21300298: blood-hd-png-blood-streaks-on-a-wall-3285_149
+    21300300: blood-hd-png-blood-streaks-on-a-wall-3285_150
+    21300302: blood-hd-png-blood-streaks-on-a-wall-3285_151
+    21300304: blood-hd-png-blood-streaks-on-a-wall-3285_152
+    21300306: blood-hd-png-blood-streaks-on-a-wall-3285_153
+    21300308: blood-hd-png-blood-streaks-on-a-wall-3285_154
+    21300310: blood-hd-png-blood-streaks-on-a-wall-3285_155
+    21300312: blood-hd-png-blood-streaks-on-a-wall-3285_156
+    21300314: blood-hd-png-blood-streaks-on-a-wall-3285_157
+    21300316: blood-hd-png-blood-streaks-on-a-wall-3285_158
+    21300318: blood-hd-png-blood-streaks-on-a-wall-3285_159
+    21300320: blood-hd-png-blood-streaks-on-a-wall-3285_160
+    21300322: blood-hd-png-blood-streaks-on-a-wall-3285_161
+    21300324: blood-hd-png-blood-streaks-on-a-wall-3285_162
+    21300326: blood-hd-png-blood-streaks-on-a-wall-3285_163
+    21300328: blood-hd-png-blood-streaks-on-a-wall-3285_164
+    21300330: blood-hd-png-blood-streaks-on-a-wall-3285_165
+    21300332: blood-hd-png-blood-streaks-on-a-wall-3285_166
+    21300334: blood-hd-png-blood-streaks-on-a-wall-3285_167
+    21300336: blood-hd-png-blood-streaks-on-a-wall-3285_168
+    21300338: blood-hd-png-blood-streaks-on-a-wall-3285_169
+    21300340: blood-hd-png-blood-streaks-on-a-wall-3285_170
+    21300342: blood-hd-png-blood-streaks-on-a-wall-3285_171
+    21300344: blood-hd-png-blood-streaks-on-a-wall-3285_172
+    21300346: blood-hd-png-blood-streaks-on-a-wall-3285_173
+    21300348: blood-hd-png-blood-streaks-on-a-wall-3285_174
+    21300350: blood-hd-png-blood-streaks-on-a-wall-3285_175
+    21300352: blood-hd-png-blood-streaks-on-a-wall-3285_176
+    21300354: blood-hd-png-blood-streaks-on-a-wall-3285_177
+    21300356: blood-hd-png-blood-streaks-on-a-wall-3285_178
+    21300358: blood-hd-png-blood-streaks-on-a-wall-3285_179
+    21300360: blood-hd-png-blood-streaks-on-a-wall-3285_180
+    21300362: blood-hd-png-blood-streaks-on-a-wall-3285_181
+    21300364: blood-hd-png-blood-streaks-on-a-wall-3285_182
+    21300366: blood-hd-png-blood-streaks-on-a-wall-3285_183
+    21300368: blood-hd-png-blood-streaks-on-a-wall-3285_184
+    21300370: blood-hd-png-blood-streaks-on-a-wall-3285_185
+    21300372: blood-hd-png-blood-streaks-on-a-wall-3285_186
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_0
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2189
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a75dab432dbde418bd40fe4bb10f93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2211
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c550c359a2150f4289c107db93c6353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 3204
+        height: 2334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 239, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3155dee6787c4186667a0cdff8d12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2004
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045061aa0d9eaaf41872f9bf36a1d4f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2016
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff437b0517b9f743be070106bfca68e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1988
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab3cd0de05d5b94080a957b5d0653a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1996
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a31b59ded81b4cada9fc85fffe8fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_7
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 1730
+        width: 320
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb884b36ecd1a44e961ce2cfd79804d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_8
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1982
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e073387f45574498fe919d43441eb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_9
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1945
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0413c605c14fee046892d575e593b344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_10
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1931
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e398bd0aac67554c9ea8c42c195f789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_11
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1919
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9d0afe16317aa41b6f7eff3267bd13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1873
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bce9a0a76cad45bd0f2c62bdd66ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1842
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340feceba0cd3c04bb53efea6a83e0e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1806
+        width: 102
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11b230bef4acf41880a10734a467c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_15
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1834
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd84a8c09ff3f143a93c79a05a8c41c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_16
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1817
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd55e3255c4200443950da684f75cdce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_17
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1799
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7f771fb9ce0c04ab0c2e69b78480a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1807
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d7f05087d839849bf87ef1fd516a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_19
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1626
+        width: 178
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a3309e2c44b644285f16420aca0df1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_20
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1781
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b521953bcd0d57499e0ff33e427c3f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1745
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5252b2d45806bd94c8214b3465d8fe75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1741
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7081b217b32c9654b835ceccfbb5b14f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_23
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1745
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdaf76faf5c29a4b9ec28b0708899f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_24
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1663
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07d272e594a5645a28de975036b83f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_25
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1659
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992abef0a8ba2254eb350496072fd091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_26
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1647
+        width: 88
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a481d3d7e09f994683b04523ee2254a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_27
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1674
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24efdbb581244ed4ba59c74c40f95bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_28
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 1666
+        width: 106
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d284ee528213daa449996365d8a2ee8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_29
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1659
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d282443941d3de438c096c9309b3373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_30
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 1661
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4a88ebf3ec32c40bf46a4097a107bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_31
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1640
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684680f089db3be4282083487fee5380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1642
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372ca7c84ef2d4c40a30f511eb69f613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_33
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33963635fb9ee8745afd3378ed5e3d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_34
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1626
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5ba2a8402cfc4fbd5d7bc063f9664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1597
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9778095df5d71499647f9a53e2f073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_36
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1613
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a41dbd6a10c1c45bbc50293576d521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_37
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1599
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441d123937eff04d857290e01113edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_38
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1607
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde3a61a81a80314b907e8b259f1d5e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_39
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1589
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2822972ac02e7b4db16e8cb6f375045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_40
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1598
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2b4a7c8ac67ea49b0906c231d4b0f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_41
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1574
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89a5453b89374042b61284cb5b69594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_42
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1536
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c06c7a90e42b014da3af27830d72733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_43
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1583
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2ca461c47636548a2706a9f42ad01f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_44
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1581
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022fe5a6f31aea545af38f98be8aeb99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_45
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1520
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4db516ede53f843b3fc0b465ee1a6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_46
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1555
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71c0c5755070f94e9059e00ec3ce029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_47
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1547
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79067e63e83f8724abfdf929cb1d137f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_48
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1565
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b955cc7e7f9dc4a4bad2b7223acfe6d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_49
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1481
+        width: 117
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72097f8c23088e44887f8024355e8dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_50
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1546
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d31faff1e8f7743b227b1b6824aa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_51
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1554
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e336d80cc2740408e0d1ea3a5b5713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_52
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1459
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246b55829979074449b2499e5fbce8a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1523
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79effd9255f77504f8ee4373c0899d3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_54
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1542
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a240f66792094595f430ed6ce9334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_55
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1538
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcd92e51d9d09641be558ea25ca3c22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_56
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 1546
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5489461f60c2b2a429bbb648f0828752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_57
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1517
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4959a9894261b224f9a470f7ecbb0a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_58
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1528
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ce743d7e2646b418c5775ef92fbe89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_59
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1531
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb7b563796a4841abe581883b8cce7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1417
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c24ff7ce791f1d41817cd7af512dee4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1514
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b14d73507183648ba53e5ba4ae95c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_62
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1504
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01604776983293c4ab603b20fa27ba9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_63
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 1515
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d383e5f612f37274f86272f6ce6d5f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_64
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1501
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03fcaa871b778f4da3ebcf271da1dc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_65
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1385
+        width: 145
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7b7bc2ca8ebbe4aa454ec54fbee3d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_66
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 1385
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433761cb8bf1de646866940671f56c75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_67
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1486
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b30bd6853a46244bfb363a3849318b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_68
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1481
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f4e9ff10ba114fbb45dbf1fb84c5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_69
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1470
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796bad54651ee5340bcd2aea1e6b492e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_70
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 1465
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aaf43ee5d3d5b41bd92b914d5f68a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_71
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1461
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f39a3706c71c4891b4d3c354f1af6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_72
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1453
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ee883b189cd24f9e2eea77cf0d538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_73
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1406
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b4631c327539540b9f5a9138a9376a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_74
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1418
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1468679256c01d541940aa9e5e8024f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_75
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1419
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5497357e6cc097246a27c71a4735d359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_76
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1432
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4aa63b2c973b34eae3734b47a427d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_77
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1413
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b47dab912cd2f4e962920baddf5f0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_78
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1417
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ff8f92564065419f2a5375dde1d6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_79
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1417
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497cffdf8caea26478c9eb9283babdbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_80
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1409
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1867c0eae38f7b44ca1c81cd4867134d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_81
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1398
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1f7e0211530934ba85cfd7786f8b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_82
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c90aa32d711c904cb0313a50eb33bc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_83
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1404
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8052150d1604b00428f51bc3e85b31ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_84
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 1393
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc512144302f9e749a818eb08efc5e55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_85
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 1406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d51cbbb7e51242b2edb7893d1edb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_86
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1347
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b02ea034737c47a27539621f55afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_87
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1327
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5fae9b35b90194fa015e2e7983f2f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_88
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 1382
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c28e7a458d38314988ae7c127cf001d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_89
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1360
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ff3bc08daf48847b1181d082484047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1348
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855cbd2b11151644199be4db5d5d0df3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_91
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1319
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829134d6956f2fe4a8783b7ad579457a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_92
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1302
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a1902538326c04295f75e77dd88f03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_93
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1303
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9acdc90bf5b57418411047d20a0bde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_94
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1305
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4169260450477942874dfcc0a1444dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_95
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1307
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c149fdaf4536f04fb3e410f45be191d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_96
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 923
+        width: 311
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906776005ef11944b2a79b5d6e40397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 187
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea782b45f905cb4b8304678592bfc80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_98
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1262
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38cce5b336f7c24eae3a708f753f99a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_99
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1270
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6291bca3202ad6445865aba382dec880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_100
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 1269
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf8baad610b2d4290c3be5a081ea9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_101
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1252
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d2207b2b723a42a46632b729055e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1217
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e0c1e29189e984f81ca11f0a91d8dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_103
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1217
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e34cf7dbf889d4da23ad8df4bd8234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_104
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1180
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e45f2145f3678448afd0f680a11edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_105
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1181
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7534f284986090f4aafa68a84096bcfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_106
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1157
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3465aee29e0b4418bfb36e19fc43f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_107
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 1162
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e20ad11a104444b952acbb376cf1a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_108
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b1f59212e86ac408704cea84a990aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_109
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 958
+        width: 75
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fee6ebbc22ff214ab89de1579296459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_110
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 1148
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a5a3e7cece28408bed66d9db963e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_111
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a89eb6d8c5604caa8eaeba33e541f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_112
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1125
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166c4252a7c0fd4f82c2abfe00fe0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_113
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1119
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b7c5c040aa934e9b3acfbcf471bc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_114
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1111
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e06a296467cc540baee0025e94d695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_115
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 989
+        width: 88
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1536efb92be356a43b85959515d7ff2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_116
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 1094
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641a13a2d06b4dd4f939ddb07e707750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_117
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1021
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aeab491ca087a47ae07b71efe85300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_118
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 999
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29651a5ac05e56c49b8a3ae4e67f3e50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_119
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 950
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcdfee22efc10041a5775db8c98ee51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_120
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 938
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f35cb8fc3e4847b8a4a3e23889a49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_121
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 926
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d549fa9066c841854e18cfb440b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_122
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 911
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6733362fc4d8b4aa2a133f66ae6fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_123
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 484
+        width: 331
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ec0516412e85b418179dc65aeeea56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_124
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 910
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6641b8645da851d4da59d9c2d0f16b57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_125
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 906
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c125b8190c497d848a1a481b42b158e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_126
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 907
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a3e4c58a9268c4ea549889fa86aa48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_127
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 889
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbbaf5d7d65aee43a775b934b13706c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_128
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 841
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f871af3d9f2b90f4985473d3bb5936cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_129
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 848
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9060d72aab68d43a9f5ead5eddb984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_130
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 862
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed67482b484063948bbf6f09e5b84428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_131
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 841
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57faabde16b24b43867b2644b52b0e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_132
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 829
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6207de1e1b0d44a950e642a0d1f4ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_133
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 808
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61523cca1a504164fbe0b3d289eda45e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_134
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 797
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce9cb9244ee4a647a3adca3c4be7629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_135
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 806
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29950010824b7845bc9659f16bcfe35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_136
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 803
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7925916394c9714bb3de999c296e1d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_137
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 803
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb229ceed74b4a46866946e675be32e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_138
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 779
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95709937dc5392541b08cb7fc3d5771c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_139
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 788
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0863ecffb1463c54a8b34be4eb82593b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_140
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 697
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b13529b71963644bf1a8cb4c0c1e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_141
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 766
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98ab5724d02f4f4fb030d8e76970979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_142
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 768
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a6e930f39442b42a4fabb38a797e10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_143
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 771
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b0dfd5530afd94fb2946d06f453b90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_144
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 747
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a218078d0a74d24bb7ee6da2df2008a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_145
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 761
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4964de87048c244939654eb245e6a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_146
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 759
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd89c0278ec674a9253419e992ca02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_147
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 761
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04ddcfcf2822bc47a40ccdd989ad1f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_148
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 638
+        width: 253
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeddc726a8cebf646ba87c4fc79e2518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_149
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 747
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37698905f1bfb442a3c394df95b76a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_150
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 742
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424f96a555417e845ae34cac8c509120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_151
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 718
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce2ab1060b3dcf4ea202423922bdd0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_152
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 667
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f653d1874d42a46a38b7f1f01ec633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_153
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 664
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e407c357d108eb439e54247a1768fb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_154
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 642
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24f546ab99c3874794fe9ed09ff3a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_155
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 673
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371ddccdd917c714491d2f58eede3cc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_156
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 662
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dde64602a876cb4a959d826a01ff158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_157
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 612
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd37999afcafac14486b6b3fbb2df066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_158
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 635
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa9cb96fcc300048a4fedd1cf8b2a2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_159
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 596
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae59a68e51c5245a5984414c5e43ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_160
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 221
+        width: 229
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1329917a980f25c468e13f8e801de271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_161
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 567
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e258135c3e7e4488f46c40e38c7b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_162
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 517
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc9f2b8e1192543b1a5710056a5ed2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_163
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 513
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f619e3ef0ea9ed44a37940da0059625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_164
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 524
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3416afa17441dc49aaa7b4b8817e02e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_165
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 399
+        width: 57
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bde4600d92326a4f96482b702cf08bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_166
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 500
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47f1a7533262ed48a7d692760487f9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_167
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 389
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99831f73de3b9247814991384521345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_168
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 461
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bdca821fcf8394fbdc89f693010a80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_169
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 410
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9fd7677325e3e4e9f55275353b9a95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_170
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 428
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d426a7d635b1f241be6687d3b12b34f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_171
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 421
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56868e3eb4c5d83489c787c3b2bedcaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_172
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 421
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7378d7fd591bec4f92d3bd5f1285fa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_173
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 421
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba53d884f9ca46c4491d8afb4bb3f060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_174
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 396
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b57610fcf43f224f891f29145bbbc0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_175
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 373
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f7135dfe5667642a1460f65de5213a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_176
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 335
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fdf4a7e4113f24b855445eb2506a8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_177
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 362
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ffffed2279ae4458a4f306246d54a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_178
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 251
+        width: 264
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac783ebb44016594c9b3a3533d795763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_179
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 259
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7960040d6d6a40bce6f6c805dac7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_180
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 331
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae36cf47f4ac48478017c1507d6d4f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_181
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 325
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328362eb946e3148a02c5edf5227362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_182
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 318
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2124fc223fa92a74d9dc453258a7f520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_183
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 312
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc36cca8c1172248b5ef3b586361444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_184
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 152
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c09f401aaaab2f4e8d0cb17855e886f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_185
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 0
+        width: 125
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6110143b1732f449b32d2da0ae22bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-hd-png-blood-streaks-on-a-wall-3285_186
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 20
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821839491c14ebb418c69d20f31cb317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ebf7f47abe913b346a66ba8bb2c11ea2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
