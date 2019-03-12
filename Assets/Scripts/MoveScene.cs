@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
+    public GetLeftRightPosition pos;
     // Start is called before the first frame update
     void Start()
     {
-        
+        pos = GameObject.Find("GetLeftRightPosition").GetComponent<GetLeftRightPosition>();
     }
 
     // Update is called once per frame

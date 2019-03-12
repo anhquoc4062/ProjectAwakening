@@ -74,7 +74,6 @@ public class Pickup : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Debug.Log(index);
                 if(index > textPickup.Length - 1)
                 {
                     //player.r2.isKinematic = true;
