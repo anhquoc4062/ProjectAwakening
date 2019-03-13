@@ -9,7 +9,7 @@ public class MoveScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pos = GameObject.Find("GetLeftRightPosition").GetComponent<GetLeftRightPosition>();
+        //pos = GameObject.Find("GetLeftRightPosition").GetComponent<GetLeftRightPosition>();
     }
 
     // Update is called once per frame

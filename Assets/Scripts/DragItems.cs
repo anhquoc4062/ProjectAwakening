@@ -47,7 +47,9 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         objectBeingDragged.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                                                                                             Input.mousePosition.y,
                                                                                             distanceToCamera));
-        this.GetComponent<BoxCollider2D>().enabled = true;
+        if (!this.gameObject.name.Contains("Slot")) {
+            this.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
 
     // called when there has been a drag and the user lets go
@@ -56,16 +58,25 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         // check here for "am i close enough to where I'm meant to be"
 
         // if not "where I'm supposed to be" reset
-        if(objectName + "_puzzle" == puzzleObject.name && puzzleObject != null)
+        if(puzzleObject != null)
         {
-            gameObject.name = "Slot (" +position+")";
-            gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
-            inventory.isFull[position - 1] = false;
+            if (objectName + "_puzzle" == puzzleObject.name)
+            {
+                gameObject.name = "Slot (" + position + ")";
+                gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
+                inventory.isFull[position - 1] = false;
 
+            }
+            else
+            {
+
+                StartCoroutine(showText());
+            }
         }
+        
         else
         {
-            StartCoroutine(showText());
+            
         }
         objectBeingDragged.transform.position = startPosition;
         objectBeingDragged.layer = LayerMask.NameToLayer("Default");
@@ -84,6 +95,11 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     void OnTriggerEnter2D(Collider2D col)
     {
         puzzleObject = col.gameObject;
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        puzzleObject = null;
     }
 
 

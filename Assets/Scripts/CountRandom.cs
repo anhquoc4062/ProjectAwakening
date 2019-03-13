@@ -23,7 +23,6 @@ public class CountRandom : MonoBehaviour
     {
 
         view += Time.deltaTime;
-        Debug.Log(view);
         if(view > 2)
         {
             viewRandom = Random.Range(1, 4);
