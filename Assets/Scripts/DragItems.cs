@@ -11,6 +11,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     private static GameObject objectBeingDragged;
     public int position;
     private Vector3 startPosition;
+    private Vector3 startSize;
     private float distanceToCamera;
     private GameObject puzzleObject;
     public string objectName;
@@ -36,7 +37,10 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     {
         objectBeingDragged = gameObject;
         startPosition = transform.position;
+        startSize = transform.localScale;
         distanceToCamera = Mathf.Abs(startPosition.z - Camera.main.transform.position.z) - 0.01f;
+
+        objectBeingDragged.transform.localScale = new Vector3(objectBeingDragged.transform.localScale.z / 2, objectBeingDragged.transform.localScale.z / 2, objectBeingDragged.transform.localScale.z / 2);
         objectBeingDragged.layer = LayerMask.NameToLayer("Ignore Raycast");
     }
 
@@ -47,6 +51,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         objectBeingDragged.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                                                                                             Input.mousePosition.y,
                                                                                             distanceToCamera));
+        
         if (!this.gameObject.name.Contains("Slot")) {
             this.GetComponent<BoxCollider2D>().enabled = true;
         }
@@ -65,7 +70,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                 gameObject.name = "Slot (" + position + ")";
                 gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
                 inventory.isFull[position - 1] = false;
-
+                puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
             }
             else
             {
@@ -79,6 +84,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
             
         }
         objectBeingDragged.transform.position = startPosition;
+        objectBeingDragged.transform.localScale = startSize;
         objectBeingDragged.layer = LayerMask.NameToLayer("Default");
         objectBeingDragged = null;
         this.GetComponent<BoxCollider2D>().enabled = false;

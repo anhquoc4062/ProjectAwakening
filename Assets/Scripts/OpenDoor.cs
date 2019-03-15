@@ -13,48 +13,62 @@ public class OpenDoor : MonoBehaviour
     public AudioSource lockedSound;
 
     public Player player;
-    public Inventory inventory;
+    private PuzzleSystem puzzleSystem;
     // Start is called before the first frame update
     void Start()
     {
         openAnim = gameObject.GetComponent<Animator>();
-        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        puzzleSystem = gameObject.GetComponent<PuzzleSystem>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+        if (puzzleSystem != null)
+        {
+            isLocked = !puzzleSystem.isSolved;
+            if(isLocked == false)
+            {
+                GameObject.Find("Lock").GetComponent<SpriteRenderer>().sprite = GameObject.Find("opendoor").GetComponent<SpriteRenderer>().sprite;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (col.CompareTag("Player"))
         {
-            if (!isLocked)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                StartCoroutine(openDoor());
-            }
-            else
-            {
-                lockedSound.Play();
+                if (!isLocked)
+                {
+                    StartCoroutine(openDoor());
+                }
+                else
+                {
+                    lockedSound.Play();
+                }
             }
         }
     }
     private void OnTriggerStay2D(Collider2D col)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (col.CompareTag("Player"))
         {
-            if (!isLocked)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                StartCoroutine(openDoor());
-            }
-            else
-            {
-                lockedSound.Play();
+                if (!isLocked)
+                {
+                    StartCoroutine(openDoor());
+                }
+                else
+                {
+                    lockedSound.Play();
+                }
             }
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D col)
@@ -66,9 +80,6 @@ public class OpenDoor : MonoBehaviour
         openSound.Play();
         openAnim.Play("Door Open");
         yield return new WaitForSeconds(0.5f);
-
-        string jsonInventoryFull = JsonUtility.ToJson(inventory.isFull);
-        PlayerPrefs.SetString("InventoryFull", jsonInventoryFull);
         SceneManager.LoadScene(scene);
     }
 }
