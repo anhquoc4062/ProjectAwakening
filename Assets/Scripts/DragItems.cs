@@ -35,6 +35,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     }
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
+        player.r2.isKinematic = true;
         objectBeingDragged = gameObject;
         startPosition = transform.position;
         startSize = transform.localScale;
@@ -47,6 +48,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     // called every frame the user drags this gameobject
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
+        player.r2.isKinematic = true;
         // update position
         objectBeingDragged.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                                                                                             Input.mousePosition.y,
@@ -63,7 +65,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         // check here for "am i close enough to where I'm meant to be"
 
         // if not "where I'm supposed to be" reset
-        if(puzzleObject != null)
+        if (puzzleObject != null)
         {
             if (objectName + "_puzzle" == puzzleObject.name)
             {
@@ -71,6 +73,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                 gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
                 inventory.isFull[position - 1] = false;
                 puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
+                puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
             }
             else
             {
@@ -89,11 +92,12 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         objectBeingDragged = null;
         this.GetComponent<BoxCollider2D>().enabled = false;
 
+        player.r2.isKinematic = false;
     }
 
     IEnumerator showText()
     {
-        player.charText.text = "Không có gì xảy ra cả";
+        player.charText.text = "NOTHING HAPPENED";
         yield return new WaitForSeconds(1f);
         player.charText.text = "";
     }

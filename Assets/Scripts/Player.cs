@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
     public AudioSource flashlight_sound;
     public GameObject flashlight;
+    public GameObject nolight;
     public bool flashlight_on = true;
 
     public AudioSource baloSound;
@@ -64,6 +65,7 @@ public class Player : MonoBehaviour
             if(checkFlashLight == true)
             {
                 flashlight.SetActive(!flashlight_on);
+                nolight.SetActive(flashlight_on);
                 flashlight_on = !flashlight_on;
                 flashlight_sound.Play();
             }

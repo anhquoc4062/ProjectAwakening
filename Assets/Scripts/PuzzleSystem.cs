@@ -15,6 +15,9 @@ public class PuzzleSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isSolved == true)
+        {
+            puzzleSound.Play();
+        }
     }
 }

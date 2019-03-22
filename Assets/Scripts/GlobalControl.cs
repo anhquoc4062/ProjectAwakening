@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GlobalControl : MonoBehaviour
 {
+    public static float playerPosition;
     // Start is called before the first frame update
     void Start()
     {

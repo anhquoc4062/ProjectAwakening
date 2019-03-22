@@ -12,25 +12,27 @@ public class OpenDoor : MonoBehaviour
     public AudioSource openSound;
     public AudioSource lockedSound;
 
+    public float playerPosition;
+
     public Player player;
-    private PuzzleSystem puzzleSystem;
+    public string reactLocked;
+    public GameObject puzzleObject;
     // Start is called before the first frame update
     void Start()
     {
         openAnim = gameObject.GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        puzzleSystem = gameObject.GetComponent<PuzzleSystem>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (puzzleSystem != null)
+        if (puzzleObject != null)
         {
-            isLocked = !puzzleSystem.isSolved;
+            isLocked = !puzzleObject.GetComponent<PuzzleSystem>().isSolved;
             if(isLocked == false)
             {
-                GameObject.Find("Lock").GetComponent<SpriteRenderer>().sprite = GameObject.Find("opendoor").GetComponent<SpriteRenderer>().sprite;
+                puzzleObject.GetComponent<PuzzleSystem>().GetComponent<SpriteRenderer>().sprite = GameObject.Find("opendoor").GetComponent<SpriteRenderer>().sprite;
             }
         }
     }
@@ -65,6 +67,7 @@ public class OpenDoor : MonoBehaviour
                 else
                 {
                     lockedSound.Play();
+                    StartCoroutine(showText());
                 }
             }
         }
@@ -81,5 +84,13 @@ public class OpenDoor : MonoBehaviour
         openAnim.Play("Door Open");
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
+        player.transform.position = new Vector3(playerPosition, player.transform.position.y,0);
+    }
+
+    IEnumerator showText()
+    {
+        player.charText.text = reactLocked;
+        yield return new WaitForSeconds(1f);
+        player.charText.text = "";
     }
 }

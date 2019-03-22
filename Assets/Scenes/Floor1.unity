@@ -208,8 +208,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 0
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!212 &25174586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -664,7 +666,7 @@ GameObject:
   - component: {fileID: 178166039}
   m_Layer: 0
   m_Name: Wall (1)
-  m_TagString: Untagged
+  m_TagString: wallRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,8 +1004,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 0
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!95 &487037066
 Animator:
   serializedVersion: 3
@@ -1115,7 +1119,7 @@ GameObject:
   - component: {fileID: 690951643}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: wallLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690951642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.7950206, y: -0.8589517, z: -0.12106967}
+  m_LocalPosition: {x: -5.7950206, y: -0.84, z: -0.12106967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 135869097}
@@ -1347,8 +1351,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 0
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!61 &732095356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1471,8 +1477,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 0
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!212 &754954692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1858,8 +1866,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 0
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!212 &972078104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2002,13 +2012,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76dd814a0d27504fbd5b7c5fe58ba51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 0
   isLocked: 0
   openAnim: {fileID: 0}
   openSound: {fileID: 1931387151}
   lockedSound: {fileID: 167189843}
+  playerPosition: 11
   player: {fileID: 0}
-  inventory: {fileID: 0}
+  reactLocked: 
+  puzzleSystem: {fileID: 0}
 --- !u!61 &1441786180
 BoxCollider2D:
   m_ObjectHideFlags: 0

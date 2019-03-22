@@ -594,7 +594,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0.7924528, g: 0.77793676, b: 0.40744036, a: 1}
+  m_Color: {r: 0.7176471, g: 0.54901963, b: 0.25882354, a: 1}
   m_Intensity: 150
   m_Range: 30
   m_SpotAngle: 111
@@ -630,7 +630,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122279912}
   m_LocalRotation: {x: 0.712871, y: -0, z: -0, w: 0.7012952}
-  m_LocalPosition: {x: 8.45, y: 3.28, z: -0.17}
+  m_LocalPosition: {x: 5.15, y: 2.29, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 1543458032}
   m_Layer: 0
   m_Name: Wall (3)
-  m_TagString: Untagged
+  m_TagString: wallRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1258,7 +1258,7 @@ GameObject:
   - component: {fileID: 2141479965}
   m_Layer: 0
   m_Name: Wall (2)
-  m_TagString: Untagged
+  m_TagString: wallLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

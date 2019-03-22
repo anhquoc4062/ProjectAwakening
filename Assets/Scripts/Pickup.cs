@@ -9,6 +9,7 @@ public class Pickup : MonoBehaviour
     private Inventory inventory;
     public GameObject item;
     public string[] textPickup;
+    public AudioSource lootSound;
     private Player player;
     private int index = 0;
     // Start is called before the first frame update
@@ -93,6 +94,7 @@ public class Pickup : MonoBehaviour
                                 this.transform.position = new Vector2(0, 0);
                                 inventory.slots[i].name = item.name;
                                 inventory.slots[i].GetComponent<Image>().sprite = this.GetComponent<SpriteRenderer>().sprite;
+                                lootSound.Play();
                                 Destroy(gameObject);
                             }
 
