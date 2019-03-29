@@ -8,7 +8,7 @@ public class OpenDoor : MonoBehaviour
 {
     public int scene;
     public bool isLocked;
-    public Animator openAnim;
+    //public Animator openAnim;
     public AudioSource openSound;
     public AudioSource lockedSound;
 
@@ -20,7 +20,7 @@ public class OpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        openAnim = gameObject.GetComponent<Animator>();
+        //openAnim = gameObject.GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
@@ -81,7 +81,7 @@ public class OpenDoor : MonoBehaviour
     IEnumerator openDoor()
     {
         openSound.Play();
-        openAnim.Play("Door Open");
+        //openAnim.Play("Door Open");
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
         //spaw vi tri player

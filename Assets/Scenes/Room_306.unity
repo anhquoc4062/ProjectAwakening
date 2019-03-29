@@ -2644,7 +2644,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 0
   isLocked: 1
-  openAnim: {fileID: 0}
   openSound: {fileID: 0}
   lockedSound: {fileID: 518769996}
   playerPosition: 0
@@ -4163,7 +4162,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 1
   isLocked: 1
-  openAnim: {fileID: 0}
   openSound: {fileID: 1016183565}
   lockedSound: {fileID: 2103253532}
   playerPosition: -2.68
@@ -5409,7 +5407,7 @@ GameObject:
   - component: {fileID: 1666750226}
   m_Layer: 0
   m_Name: key_puzzle
-  m_TagString: Untagged
+  m_TagString: Puzzle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5423,7 +5421,7 @@ Transform:
   m_GameObject: {fileID: 1666750220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.04145125, y: 0.043770973, z: 0}
-  m_LocalScale: {x: 0.20889615, y: 0.11077446, z: 0}
+  m_LocalScale: {x: 0.20889615, y: 0.110774465, z: 0}
   m_Children: []
   m_Father: {fileID: 1262241793}
   m_RootOrder: 2
@@ -7209,6 +7207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227330719429451426, guid: 83520b4096da6164296c6fa49628efd8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83520b4096da6164296c6fa49628efd8, type: 3}

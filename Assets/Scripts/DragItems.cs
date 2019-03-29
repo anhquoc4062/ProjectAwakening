@@ -67,6 +67,8 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         // if not "where I'm supposed to be" reset
         if (puzzleObject != null)
         {
+
+            
             if (objectName + "_puzzle" == puzzleObject.name)
             {
                 gameObject.name = "Slot (" + position + ")";
@@ -84,7 +86,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         
         else
         {
-            
+            StartCoroutine(showText());
         }
         objectBeingDragged.transform.position = startPosition;
         objectBeingDragged.transform.localScale = startSize;
@@ -105,11 +107,20 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     void OnTriggerEnter2D(Collider2D col)
     {
         puzzleObject = col.gameObject;
+        Debug.Log(puzzleObject.name);
     }
-
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.CompareTag("Puzzle"))
+        {
+            puzzleObject = col.gameObject;
+            Debug.Log(puzzleObject.name);
+        }
+    }
     void OnTriggerExit2D(Collider2D col)
     {
         puzzleObject = null;
+        Debug.Log("null");
     }
 
 
