@@ -2650,7 +2650,7 @@ MonoBehaviour:
   playerPosition: 0
   player: {fileID: 0}
   reactLocked: the door was chained
-  puzzleSystem: {fileID: 0}
+  puzzleObject: {fileID: 0}
 --- !u!61 &772591775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4048,7 +4048,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.044537827, y: -0.27231073}
+  m_Offset: {x: 0.07002267, y: -0.27231073}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4059,7 +4059,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.949788, y: 3.9153786}
+  m_Size: {x: 1.5104828, y: 3.9153786}
   m_EdgeRadius: 0
 --- !u!212 &1262241795
 SpriteRenderer:
@@ -4166,10 +4166,10 @@ MonoBehaviour:
   openAnim: {fileID: 0}
   openSound: {fileID: 1016183565}
   lockedSound: {fileID: 2103253532}
-  playerPosition: 19
+  playerPosition: -2.68
   player: {fileID: 0}
   reactLocked: I have to find its key
-  puzzleSystem: {fileID: 1666750220}
+  puzzleObject: {fileID: 1666750220}
 --- !u!1 &1295019181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5472,7 +5472,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.43927968, y: 0.0000009536743}
+  m_Offset: {x: -0.43927956, y: 0.3180747}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5483,7 +5483,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.2049704, y: 4.813734}
+  m_Size: {x: 5.2049704, y: 5.4498806}
   m_EdgeRadius: 0
 --- !u!212 &1666750225
 SpriteRenderer:
@@ -7083,7 +7083,7 @@ PrefabInstance:
     - target: {fileID: 8227330717999686269, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
       propertyPath: m_Range
-      value: 3.3944774
+      value: 3.142622
       objectReference: {fileID: 0}
     - target: {fileID: 8227330717999686269, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
@@ -7199,6 +7199,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.6226415
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227330719514412932, guid: 83520b4096da6164296c6fa49628efd8,
+        type: 3}
+      propertyPath: m_Range
+      value: 1.6457653
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227330719514412932, guid: 83520b4096da6164296c6fa49628efd8,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83520b4096da6164296c6fa49628efd8, type: 3}

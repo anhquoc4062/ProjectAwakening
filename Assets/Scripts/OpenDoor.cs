@@ -84,6 +84,7 @@ public class OpenDoor : MonoBehaviour
         openAnim.Play("Door Open");
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
+        //spaw vi tri player
         player.transform.position = new Vector3(playerPosition, player.transform.position.y,0);
     }
 
