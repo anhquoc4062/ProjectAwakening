@@ -17,6 +17,8 @@ public class OpenDoor : MonoBehaviour
     public Player player;
     public string reactLocked;
     public GameObject puzzleObject;
+
+    public GameObject changToIcon;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +34,8 @@ public class OpenDoor : MonoBehaviour
             isLocked = !puzzleObject.GetComponent<PuzzleSystem>().isSolved;
             if(isLocked == false)
             {
-                puzzleObject.GetComponent<PuzzleSystem>().GetComponent<SpriteRenderer>().sprite = GameObject.Find("opendoor").GetComponent<SpriteRenderer>().sprite;
+                changToIcon.transform.localScale = puzzleObject.transform.localScale;
+                puzzleObject.GetComponent<PuzzleSystem>().GetComponent<SpriteRenderer>().sprite = changToIcon.GetComponent<SpriteRenderer>().sprite;
             }
         }
     }
@@ -66,7 +69,10 @@ public class OpenDoor : MonoBehaviour
                 }
                 else
                 {
-                    lockedSound.Play();
+                    if(lockedSound != null)
+                    {
+                        lockedSound.Play();
+                    }
                     StartCoroutine(showText());
                 }
             }
@@ -80,7 +86,10 @@ public class OpenDoor : MonoBehaviour
 
     IEnumerator openDoor()
     {
-        openSound.Play();
+        if(openSound != null)
+        {
+            openSound.Play();
+        }
         //openAnim.Play("Door Open");
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
