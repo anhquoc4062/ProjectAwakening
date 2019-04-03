@@ -13,6 +13,7 @@ TagManager:
   - wallLeft
   - Image
   - heart
+  - GlobalManager
   layers:
   - Default
   - TransparentFX

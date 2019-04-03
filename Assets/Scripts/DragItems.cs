@@ -75,15 +75,18 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                 inventory.isFull[position - 1] = false;
                 if (keyName != "Sprite")
                 {
-                    puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
+                    //puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
                     puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+                    
                 }
                 else
                 {
                     //tangw maus
                     Debug.Log("tangw maus");
                 }
-
+                GlobalManager.isSolved[puzzleObject.name] = true;
+                Debug.Log(puzzleObject.name + "_called");
+                Debug.Log(GlobalManager.isSolved[puzzleObject.name]);
             }
             else
             {

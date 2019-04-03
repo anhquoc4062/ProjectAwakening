@@ -14,16 +14,28 @@ public class Pickup : MonoBehaviour
     private int index = 0;
     public string keyName;
     // Start is called before the first frame update
+    void Awake()
+    {
+        if (GlobalManager.isPickuped[item.name] == false)
+        {
+            item.gameObject.SetActive(true);
+        }
+        else
+        {
+
+            item.gameObject.SetActive(false);
+        }
+    }
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -97,6 +109,7 @@ public class Pickup : MonoBehaviour
                                 inventory.slots[i].GetComponent<Image>().sprite = this.GetComponent<SpriteRenderer>().sprite;
                                 inventory.slots[i].GetComponent<DragItems>().keyName = keyName;
                                 lootSound.Play();
+                                GlobalManager.isPickuped[item.name] = true;
                                 Destroy(gameObject);
                             }
 

@@ -5,16 +5,32 @@ using UnityEngine;
 public class PuzzleSystem : MonoBehaviour
 {
     public AudioSource puzzleSound;
-    public bool isSolved = false;
+    public bool isSolved;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        if(GlobalManager.isSolved[gameObject.name] == false)
+        {
+            isSolved = false;
+        }
+        else
+        {
+            isSolved = true;
+        }
+        Debug.Log(GlobalManager.isSolved[gameObject.name]);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (GlobalManager.isSolved[gameObject.name] == false)
+        {
+            isSolved = false;
+        }
+        else
+        {
+            isSolved = true;
+        }
+        Debug.Log(GlobalManager.isSolved[gameObject.name]);
     }
 }

@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 162019709}
   m_Layer: 0
   m_Name: crowbar_puzzle
-  m_TagString: Untagged
+  m_TagString: Puzzle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,8 +325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162019707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85899997, y: 0.63, z: 0}
-  m_LocalScale: {x: 0.96683794, y: 1.2279748, z: 0}
+  m_LocalPosition: {x: -1.375, y: 0.07, z: 0}
+  m_LocalScale: {x: 0.11294947, y: 0.13568674, z: 0}
   m_Children: []
   m_Father: {fileID: 1044394173}
   m_RootOrder: 0
@@ -389,18 +389,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0025855303, y: -1.1646144}
+  m_Offset: {x: 0.22545147, y: -11.813628}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 5.54, y: 9.08}
     newSize: {x: 8.25, y: 7.93}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4297779, y: 4.1643586}
+  m_Size: {x: 6.902769, y: 25.462385}
   m_EdgeRadius: 0
 --- !u!212 &162019713
 SpriteRenderer:
@@ -438,7 +438,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 300
   m_Sprite: {fileID: 21300000, guid: fee92df3f2e112c4bbbd3dcfce79913d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2268,7 +2268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044394172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.66, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 162019708}
@@ -3197,9 +3197,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.6698113, g: 0.5538567, b: 0.15481488, a: 1}
-  m_Intensity: 200
+  m_Intensity: 120
   m_Range: 10
-  m_SpotAngle: 79.534256
+  m_SpotAngle: 89.079185
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -3232,7 +3232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859949539}
   m_LocalRotation: {x: 0.7132815, y: -0, z: -0, w: 0.70087767}
-  m_LocalPosition: {x: -0.41, y: 2.31, z: -1.3136288}
+  m_LocalPosition: {x: -0.08, y: 2.31, z: -1.3136288}
   m_LocalScale: {x: 0.72742194, y: 0.727422, z: 0.727422}
   m_Children: []
   m_Father: {fileID: 721027962}
