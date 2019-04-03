@@ -1489,6 +1489,7 @@ MonoBehaviour:
   textPickup:
   - ah... a key
   lootSound: {fileID: 560516501}
+  keyName: key_puzzle
 --- !u!61 &559644655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2101,6 +2102,7 @@ MonoBehaviour:
   - this is my balo
   - it will useful if i take it
   lootSound: {fileID: 676453540}
+  keyName: Sprite
 --- !u!61 &682909485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2827,6 +2829,7 @@ MonoBehaviour:
   textPickup:
   - a crowbar
   lootSound: {fileID: 593011840}
+  keyName: crowbar_puzzle
 --- !u!61 &826688494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5319,6 +5322,7 @@ MonoBehaviour:
   - this is my balo
   - it will useful if i take it
   lootSound: {fileID: 676453540}
+  keyName: 
 --- !u!61 &1603544575
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7063,7 +7067,7 @@ PrefabInstance:
     - target: {fileID: 8227330717999686268, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.429
+      value: -0.562
       objectReference: {fileID: 0}
     - target: {fileID: 8227330717999686268, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
@@ -7083,12 +7087,12 @@ PrefabInstance:
     - target: {fileID: 8227330717999686269, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
       propertyPath: m_Range
-      value: 3.142622
+      value: 4.4389825
       objectReference: {fileID: 0}
     - target: {fileID: 8227330717999686269, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}
       propertyPath: m_Intensity
-      value: 90
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8227330717999686269, guid: 83520b4096da6164296c6fa49628efd8,
         type: 3}

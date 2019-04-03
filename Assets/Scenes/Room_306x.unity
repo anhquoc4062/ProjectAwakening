@@ -1842,6 +1842,7 @@ MonoBehaviour:
   textPickup:
   - ah... a key
   lootSound: {fileID: 0}
+  keyName: 
 --- !u!61 &680069652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2286,11 +2287,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d76dd814a0d27504fbd5b7c5fe58ba51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 0
+  scene: 3
   isLocked: 1
   openSound: {fileID: 0}
   lockedSound: {fileID: 0}
-  playerPosition: 0
+  playerPosition: 22.18
   player: {fileID: 0}
   reactLocked: The window is blocked by woods
   puzzleObject: {fileID: 162019707}
@@ -2981,6 +2982,7 @@ MonoBehaviour:
   textPickup:
   - a hammer
   lootSound: {fileID: 0}
+  keyName: 
 --- !u!61 &1589219965
 BoxCollider2D:
   m_ObjectHideFlags: 0

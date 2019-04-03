@@ -14,7 +14,8 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     private Vector3 startSize;
     private float distanceToCamera;
     private GameObject puzzleObject;
-    public string objectName;
+    private string objectName;
+    public string keyName;
     private Inventory inventory;
     private Player player;
     // called the first time the user clicks and drags on this gameobject
@@ -67,15 +68,22 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         // if not "where I'm supposed to be" reset
         if (puzzleObject != null)
         {
-
-            
-            if (objectName + "_puzzle" == puzzleObject.name)
+            if (keyName == puzzleObject.name)
             {
                 gameObject.name = "Slot (" + position + ")";
                 gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
                 inventory.isFull[position - 1] = false;
-                puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
-                puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+                if (keyName != "Sprite")
+                {
+                    puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
+                    puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+                }
+                else
+                {
+                    //tangw maus
+                    Debug.Log("tangw maus");
+                }
+
             }
             else
             {
@@ -106,8 +114,11 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        puzzleObject = col.gameObject;
-        Debug.Log(puzzleObject.name);
+        if (col.CompareTag("Puzzle"))
+        {
+            puzzleObject = col.gameObject;
+            Debug.Log(puzzleObject.name);
+        }
     }
     void OnTriggerStay2D(Collider2D col)
     {
@@ -120,7 +131,6 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     void OnTriggerExit2D(Collider2D col)
     {
         puzzleObject = null;
-        Debug.Log("null");
     }
 
 
