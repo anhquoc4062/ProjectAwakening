@@ -9,9 +9,10 @@ public class TriggerEnemy : MonoBehaviour
     private Player player ;
     private FlatformFollowPath Flat ;
     private Pathd pathd ;
+    TimerScript TimerScript ;
     void Start()
     {
-        
+        TimerScript = GameObject.FindGameObjectWithTag("Image").GetComponent<TimerScript>() ;
         Flat  = gameObject.GetComponent<FlatformFollowPath>() ;
         enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>() ;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() ;
@@ -33,7 +34,7 @@ public class TriggerEnemy : MonoBehaviour
                 if(pathd.meetPlayer){
                     enemy.meet = true ;
                     enemy.Squir = true ;
-                    
+                    TimerScript.beaten = true ;
                     //StartCoroutine(waiting(5f));
                     //enemy.afterhit = false ;
                     //enemy.Flat.enabled = true ;

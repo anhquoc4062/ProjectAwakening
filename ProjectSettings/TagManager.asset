@@ -7,6 +7,12 @@ TagManager:
   - Door
   - Item
   - Puzzle
+  - Enemy
+  - ThePath
+  - wallRight
+  - wallLeft
+  - Image
+  - heart
   layers:
   - Default
   - TransparentFX
