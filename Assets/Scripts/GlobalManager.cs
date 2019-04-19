@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlobalManager: MonoBehaviour
+public static class GlobalManager
 {
     public static Dictionary<string, bool> isPickuped { get; set; }
     public static Dictionary<string, bool> isSolved { get; set; }
     // Start is called before the first frame update
-    void Awake()
+
+    static GlobalManager()
     {
         isPickuped = new Dictionary<string, bool>();
         isPickuped["crowbar"] = false;
@@ -19,11 +20,5 @@ public class GlobalManager: MonoBehaviour
         isSolved = new Dictionary<string, bool>();
         isSolved["key_puzzle"] = false;
         isSolved["crowbar_puzzle"] = false;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

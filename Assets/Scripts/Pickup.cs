@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour
 {
-    public static bool isPickuped = false;
+    //public static bool isPickuped = false;
     private Inventory inventory;
     public GameObject item;
     public string[] textPickup;
@@ -13,23 +13,39 @@ public class Pickup : MonoBehaviour
     private Player player;
     private int index = 0;
     public string keyName;
+    //private GlobalManager globalClass;
     // Start is called before the first frame update
     void Awake()
     {
         if (GlobalManager.isPickuped[item.name] == false)
         {
-            item.gameObject.SetActive(true);
+            this.gameObject.SetActive(true);
+            this.GetComponent<Pickup>().enabled = true;
         }
         else
         {
 
-            item.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
+            this.GetComponent<Pickup>().enabled = true;
         }
+        Debug.Log(GlobalManager.isPickuped[item.name] + "of item name " + item.name);
     }
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        //globalClass = GameObject.FindGameObjectWithTag("GlobalManager").GetComponent<GlobalManager>();
+        //item = this.gameObject;
+        //if (GlobalManager.isPickuped[item.name] == false)
+        //{
+        //    item.gameObject.SetActive(true);
+        //}
+        //else
+        //{
+
+        //    item.gameObject.SetActive(false);
+        //}
+        //Debug.Log("Start called");
 
     }
 
@@ -110,7 +126,7 @@ public class Pickup : MonoBehaviour
                                 inventory.slots[i].GetComponent<DragItems>().keyName = keyName;
                                 lootSound.Play();
                                 GlobalManager.isPickuped[item.name] = true;
-                                Destroy(gameObject);
+                                //gameObject.SetActive(false);
                             }
 
                             break;

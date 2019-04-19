@@ -17,6 +17,20 @@ public class PuzzleSystem : MonoBehaviour
         {
             isSolved = true;
         }
+        Debug.Log("Awake called");
+        Debug.Log(gameObject.name +"puzzle");
+        Debug.Log(GlobalManager.isSolved[gameObject.name]);
+    }
+    void Start()
+    {
+        if (GlobalManager.isSolved[gameObject.name] == false)
+        {
+            isSolved = false;
+        }
+        else
+        {
+            isSolved = true;
+        }
         Debug.Log(GlobalManager.isSolved[gameObject.name]);
     }
 
@@ -31,6 +45,5 @@ public class PuzzleSystem : MonoBehaviour
         {
             isSolved = true;
         }
-        Debug.Log(GlobalManager.isSolved[gameObject.name]);
     }
 }
