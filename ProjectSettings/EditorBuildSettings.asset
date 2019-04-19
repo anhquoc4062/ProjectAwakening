@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Floor3_side.unity
     guid: 9573df5feff3dc446aef5fb00d1c08ce
+  - enabled: 1
+    path: Assets/Scenes/Floor3_Toilet.unity
+    guid: 4f1fd2ad59ff82e41be24dc43ff34966
   m_configObjects: {}
