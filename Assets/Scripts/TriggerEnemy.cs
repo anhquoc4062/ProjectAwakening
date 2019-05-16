@@ -10,7 +10,6 @@ public class TriggerEnemy : MonoBehaviour
     private FlatformFollowPath Flat ;
     private Pathd pathd ;
     TimerScript TimerScript ;
-    public AudioSource stab;
     void Start()
     {
         TimerScript = GameObject.FindGameObjectWithTag("Image").GetComponent<TimerScript>() ;
@@ -35,7 +34,6 @@ public class TriggerEnemy : MonoBehaviour
                 if(pathd.meetPlayer){
                     enemy.meet = true ;
                     enemy.Squir = true ;
-                    stab.Play();
                     player.bleeding.SetActive(true);
                     //TimerScript.beaten = true ;
                     //StartCoroutine(waiting(5f));
@@ -50,9 +48,11 @@ public class TriggerEnemy : MonoBehaviour
         yield return new WaitForSeconds(x);
         Debug.Log("Chém");
         pathd.meetPlayer = false ;
+        enemy.stab.Play();
         enemy.Squir = false ;
         Flat.speed = 4f;
         enemy.range = -1 ;
+
     }
     IEnumerator waiting(float x)
     {

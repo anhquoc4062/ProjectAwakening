@@ -14,6 +14,7 @@ TagManager:
   - Image
   - heart
   - GlobalManager
+  - EnemyUI
   layers:
   - Default
   - TransparentFX

@@ -19,6 +19,12 @@ public class Enemy : MonoBehaviour
     public float dis ;
     public float time = 0;
     public int random = 0 ;
+
+
+
+    //sound
+    public AudioSource stab;
+    public AudioSource laugh;
     void Start()
     {
         pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>() ;
@@ -57,9 +63,11 @@ public class Enemy : MonoBehaviour
             if(time < 3f && time > 0.5f){
                 Flat.enabled = false ;
                 afterhit = true;
+
             }else{
                 Flat.enabled = true ;
                 afterhit = false;
+                laugh.Play();
             }
 
             if(time  > random){

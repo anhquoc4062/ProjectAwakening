@@ -7,7 +7,7 @@ public class FlatformFollowPath : MonoBehaviour
     public Pathd thepath ;
     public float speed = 1f ;
     
-    public bool faceright = true ;
+    public bool faceright = false ;
     public Enemy enemy ;
     public Player player ;
     public float h  =1;
