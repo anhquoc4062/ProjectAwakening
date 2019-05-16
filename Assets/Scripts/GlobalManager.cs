@@ -16,6 +16,11 @@ public static class GlobalManager
         isPickuped["hammer"] = false;
         isPickuped["bandage"] = false;
         isPickuped["flashlight"] = false;
+        isPickuped["doll01"] = false;
+        isPickuped["doll02"] = false;
+        isPickuped["doll03"] = false;
+        isPickuped["doll04"] = false;
+        isPickuped["doll05"] = false;
 
         isSolved = new Dictionary<string, bool>();
         isSolved["key_puzzle"] = false;
