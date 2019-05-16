@@ -29,15 +29,11 @@ public class TriggerEnemy : MonoBehaviour
           
     }
     private void OnTriggerStay2D(Collider2D other) {
-          
             if(other.CompareTag("Player")){
                 if(pathd.meetPlayer){
                     enemy.meet = true ;
                     enemy.Squir = true ;
-                    TimerScript.beaten = true ;
-                    //StartCoroutine(waiting(5f));
-                    //enemy.afterhit = false ;
-                    //enemy.Flat.enabled = true ;
+                    //TimerScript.beaten = true ;
                     StartCoroutine(Hit(0.03f));
                 }
             }
