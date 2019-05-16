@@ -10,6 +10,7 @@ public class TriggerEnemy : MonoBehaviour
     private FlatformFollowPath Flat ;
     private Pathd pathd ;
     TimerScript TimerScript ;
+    public AudioSource stab;
     void Start()
     {
         TimerScript = GameObject.FindGameObjectWithTag("Image").GetComponent<TimerScript>() ;
@@ -33,7 +34,16 @@ public class TriggerEnemy : MonoBehaviour
                 if(pathd.meetPlayer){
                     enemy.meet = true ;
                     enemy.Squir = true ;
+<<<<<<< HEAD
                     //TimerScript.beaten = true ;
+=======
+                    stab.Play();
+                    player.bleeding.SetActive(true);
+                    //TimerScript.beaten = true ;
+                    //StartCoroutine(waiting(5f));
+                    //enemy.afterhit = false ;
+                    //enemy.Flat.enabled = true ;
+>>>>>>> d3153da53be9352f275050688f3077b089ff79e1
                     StartCoroutine(Hit(0.03f));
                 }
             }

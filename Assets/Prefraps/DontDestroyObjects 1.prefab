@@ -32,7 +32,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8227330718656225564}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8227330717874007290
 MonoBehaviour:
@@ -100,7 +100,10 @@ Transform:
   m_LocalPosition: {x: 4.136846, y: -3.5040603, z: -0.10559706}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 308598150082573354}
+=======
+>>>>>>> d3153da53be9352f275050688f3077b089ff79e1
   - {fileID: 8227330719467483682}
   - {fileID: 8227330717874007292}
   - {fileID: 8227330719099525961}
@@ -152,7 +155,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8227330718656225564}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8227330718359238706
 MonoBehaviour:
@@ -202,7 +205,7 @@ Transform:
   m_Children:
   - {fileID: 8227330719429451427}
   m_Father: {fileID: 8227330718656225564}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &8227330719467483681
 Camera:
@@ -307,7 +310,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8227330718656225564}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8227330719099526006
 MonoBehaviour:
@@ -456,6 +459,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 --- !u!1001 &4601197045084330991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,3 +586,5 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4601197045084330991}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> d3153da53be9352f275050688f3077b089ff79e1

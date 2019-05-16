@@ -34,7 +34,7 @@ public class InputCode : MonoBehaviour
 
     public void InputSubmit()
     {
-        Text text = inputField.transform.FindChild("Text").GetComponent<Text>();
+        Text text = inputField.transform.Find("Text").GetComponent<Text>();
         if (inputField.text == correctString)
         {
             //do something

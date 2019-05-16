@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public Animator anim;
     public AudioSource footstep;
     public SpriteRenderer sprite;
+    public GameObject bleeding;
 
     public AudioSource flashlight_sound;
     public GameObject flashlight;
