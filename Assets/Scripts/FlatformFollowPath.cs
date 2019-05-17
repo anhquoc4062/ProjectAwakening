@@ -17,10 +17,16 @@ public class FlatformFollowPath : MonoBehaviour
     public GameObject walleft ;
     public GameObject wallright ;
     // Start is called before the first frame update
-    void Awake()
+    /*void Awake()
     {
-       
-    }
+
+        walleft = GameObject.FindGameObjectWithTag("wallLeft");
+
+        wallright = GameObject.FindGameObjectWithTag("wallRight");
+        thepath.listPoints[0].position = new Vector3(walleft.transform.position.x, -2f, 0);
+
+        thepath.listPoints[1].position = new Vector3(wallright.transform.position.x, -2f, 0);
+    }*/
     void Start()
     {   
         
@@ -55,12 +61,6 @@ public class FlatformFollowPath : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        walleft = GameObject.FindGameObjectWithTag("wallLeft");
-
-        wallright = GameObject.FindGameObjectWithTag("wallRight");
-        thepath.listPoints[0].position = new Vector3(walleft.transform.position.x, -2f, 0);
-
-        thepath.listPoints[1].position = new Vector3(wallright.transform.position.x, -2f, 0);
         if (!thepath.meetPlayer){
 
                 if(thepath == null){

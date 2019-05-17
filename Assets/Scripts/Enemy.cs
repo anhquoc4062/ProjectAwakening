@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     //sound
     public AudioSource stab;
     public AudioSource laugh;
+    public AudioSource footstep;
     void Start()
     {
         pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>() ;
@@ -45,15 +46,16 @@ public class Enemy : MonoBehaviour
         //tức là khi trong tầm hoạt động bot sẽ đuổi theo chém 1 hit
         if(dis < range){
             //khi khoản cách dưới 15 sẽ bắt đầu chạy nhanh và tăng tầm chạy lên 20 , tăng tốc độ enemy 
+
+            footstep.Play();
             range = 20 ;
             meet = true;
             pathd.meetPlayer = true ;
-            
             Flat.speed = 5f ;
             //tăng tốc enemy cho ngầu thôi
-            if(dis < 6){
+            /*if(dis < 6){
                 Flat.speed = 4f ;
-            }
+            }*/
         }
         // gán lại range = -1 để tránh sự kiện bot đuổi theo khi vừa chém
         if(range == -1){
@@ -68,6 +70,7 @@ public class Enemy : MonoBehaviour
                 Flat.enabled = true ;
                 afterhit = false;
                 laugh.Play();
+                footstep.Stop();
             }
 
             if(time  > random){
