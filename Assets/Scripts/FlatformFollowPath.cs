@@ -35,6 +35,9 @@ public class FlatformFollowPath : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() ;
         
         enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>() ;
+        //thepath = gameObject.GetComponent<Pathd>();
+        thepath = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>();
+
 
         if (thepath == null){
             return ;

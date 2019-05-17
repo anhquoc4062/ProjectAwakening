@@ -8,15 +8,15 @@ public class TriggerEnemy : MonoBehaviour
     private Enemy enemy ;
     private Player player ;
     private FlatformFollowPath Flat ;
-    private Pathd pathd ;
+    public Pathd pathd ;
     TimerScript TimerScript ;
     void Start()
     {
-        TimerScript = GameObject.FindGameObjectWithTag("Image").GetComponent<TimerScript>() ;
+        //TimerScript = GameObject.FindGameObjectWithTag("Image").GetComponent<TimerScript>() ;
         Flat  = gameObject.GetComponent<FlatformFollowPath>() ;
         enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>() ;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() ;
-        pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>() ;
+        pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>();
     }
 
     // Update is called once per frame  
@@ -29,9 +29,8 @@ public class TriggerEnemy : MonoBehaviour
           
     }
     private void OnTriggerStay2D(Collider2D other) {
-          
             if(other.CompareTag("Player")){
-                if(pathd.meetPlayer){
+                if(pathd.meetPlayer == true){
                     enemy.meet = true ;
                     enemy.Squir = true ;
                     player.bleeding.SetActive(true);

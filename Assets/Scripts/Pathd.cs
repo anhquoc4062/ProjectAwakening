@@ -17,7 +17,7 @@ public class Pathd : MonoBehaviour
     public Enemy enemy ;
     void Start()
     {
-        enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>() ;
+        enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
         flat = gameObject.GetComponent<FlatformFollowPath>();
     }
 

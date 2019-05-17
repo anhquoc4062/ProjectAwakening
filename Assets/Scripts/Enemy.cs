@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
         }
         // gán lại range = -1 để tránh sự kiện bot đuổi theo khi vừa chém
         if(range == -1){
-            
+            Debug.Log("sau khi chém đợi 3s mới mở khóa nhân vật");
 
             time += Time.deltaTime;
             if(time < 3f && time > 0.5f){
@@ -75,7 +75,7 @@ public class Enemy : MonoBehaviour
 
             if(time  > random){
                 Debug.Log("test 5s");
-                range = 20 ;
+                range = 15 ;
                 time = 0 ;
             }
         }
