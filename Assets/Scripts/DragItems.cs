@@ -60,6 +60,37 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         }
     }
 
+    void solve()
+    {
+        gameObject.name = "Slot (" + position + ")";
+        gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
+        inventory.isFull[position - 1] = false;
+        if (keyName != "Sprite")
+        {
+            //puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
+            puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+
+        }
+        else
+        {
+            if(GlobalManager.countSquired == 0)
+            {
+                StartCoroutine(showText());
+            }
+            else
+            {
+                GlobalManager.countSquired = 0;
+            }
+        }
+        GlobalManager.isSolved[puzzleObject.name] = true;
+        /*if (puzzleObject.name == "fire_puzzle" && GlobalManager.isSolved["fire_puzzle"] == true)
+        {
+            puzzleObject.name = "doll01_puzzle";
+        }*/
+        //Debug.Log(puzzleObject.name + "_called");
+        Debug.Log(GlobalManager.isSolved[puzzleObject.name]);
+    }
+
     // called when there has been a drag and the user lets go
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
@@ -70,23 +101,43 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         {
             if (keyName == puzzleObject.name)
             {
-                gameObject.name = "Slot (" + position + ")";
-                gameObject.GetComponent<Image>().sprite = GameObject.Find("Slot Empty").GetComponent<SpriteRenderer>().sprite;
-                inventory.isFull[position - 1] = false;
-                if (keyName != "Sprite")
+                if (puzzleObject.name != "fire_puzzle")
                 {
-                    //puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
-                    puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
-                    
+                    solve();
                 }
                 else
                 {
-                    //tangw maus
-                    Debug.Log("tangw maus");
+                    if (GlobalManager.isSolved["fire_puzzle"] == false)
+                    {
+                        if (gameObject.name.Substring(0, 4) != "doll")
+                        {
+                            solve();
+                        }
+                        else
+                        {
+                            StartCoroutine(showText());
+                        }
+                    }
+                    else
+                    {
+                        if (gameObject.name.Substring(0, 4) == "doll")
+                        {
+                            solve();
+                            GlobalManager.countDollBurned++;
+                            Debug.Log("So bup be dot duoc"+GlobalManager.countDollBurned);
+
+                            /*int index = int.Parse(gameObject.name.Substring(5, 1)) + 1;
+                            if (index < 6)
+                            {
+                                string name = "doll0" + index;
+                                GlobalManager.isPickuped[name] = false;
+
+                                Debug.Log(GlobalManager.isPickuped[name]);
+                            }*/
+                        }
+                    }
                 }
-                GlobalManager.isSolved[puzzleObject.name] = true;
-                Debug.Log(puzzleObject.name + "_called");
-                Debug.Log(GlobalManager.isSolved[puzzleObject.name]);
+               
             }
             else
             {
@@ -117,7 +168,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Puzzle"))
+        if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
         {
             puzzleObject = col.gameObject;
             Debug.Log(puzzleObject.name);
@@ -125,7 +176,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     }
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.CompareTag("Puzzle"))
+        if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
         {
             puzzleObject = col.gameObject;
             //Debug.Log(puzzleObject.name);

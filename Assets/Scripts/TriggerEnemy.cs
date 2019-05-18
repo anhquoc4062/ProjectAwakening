@@ -33,7 +33,8 @@ public class TriggerEnemy : MonoBehaviour
                 if(pathd.meetPlayer == true){
                     enemy.meet = true ;
                     enemy.Squir = true ;
-                    player.bleeding.SetActive(true);
+                    //player.bleeding.SetActive(true);
+                    GlobalManager.countSquired++;
                     //TimerScript.beaten = true ;
                     //StartCoroutine(waiting(5f));
                     //enemy.afterhit = false ;

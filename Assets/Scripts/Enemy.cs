@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
     //sound
     public AudioSource stab;
     public AudioSource laugh;
-    public AudioSource footstep;
+    //public AudioSource footstep;
     void Start()
     {
         pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>() ;
@@ -46,8 +46,6 @@ public class Enemy : MonoBehaviour
         //tức là khi trong tầm hoạt động bot sẽ đuổi theo chém 1 hit
         if(dis < range){
             //khi khoản cách dưới 15 sẽ bắt đầu chạy nhanh và tăng tầm chạy lên 20 , tăng tốc độ enemy 
-
-            footstep.Play();
             range = 20 ;
             meet = true;
             pathd.meetPlayer = true ;
@@ -70,7 +68,6 @@ public class Enemy : MonoBehaviour
                 Flat.enabled = true ;
                 afterhit = false;
                 laugh.Play();
-                footstep.Stop();
             }
 
             if(time  > random){
@@ -82,6 +79,14 @@ public class Enemy : MonoBehaviour
         anim.SetBool("after" , afterhit) ;
         anim.SetBool("meet" , meet) ;
         anim.SetBool("squir" , Squir) ;
+
+        /*int checkFaceRight = (faceright == true) ? -1 : 1;
+
+        Vector3 Scale;
+        Scale = transform.localScale;
+        Scale.x *= checkFaceRight;*/
+
+        faceright = gameObject.GetComponent<FlatformFollowPath>().faceright;
     }
     public void Flip(){
         faceright = !faceright ;

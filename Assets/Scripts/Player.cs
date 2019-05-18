@@ -89,6 +89,14 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (GlobalManager.countSquired > 0)
+        {
+            bleeding.SetActive(true);
+        }
+        else
+        {
+            bleeding.SetActive(false);
+        }
 
         if(charText.text != "")
         {

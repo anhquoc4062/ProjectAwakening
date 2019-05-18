@@ -15,6 +15,8 @@ public class SpawnEnemy : MonoBehaviour
     public GameObject walleft;
     public GameObject wallright;
 
+    private float enemyStartPosition;
+
     void SetLeftRightPosition(int indexScene)
     {
 
@@ -58,17 +60,38 @@ public class SpawnEnemy : MonoBehaviour
         
         float path1Loc = path1.transform.position.x;
         float path2Loc = path2.transform.position.x;
-        float path3Loc = path3.transform.position.x;
-        float enemyStartLocation = (Mathf.Abs(path3Loc - path1Loc) > Mathf.Abs(path3Loc - path2Loc)) ? path1Loc : path2Loc;
-        Debug.Log("Vị trí enemy: " + enemyStartLocation);
+        float path3Loc = player.transform.position.x;
+        //float enemyStartLocation = (Mathf.Abs(path3Loc - path1Loc) > Mathf.Abs(path3Loc - path2Loc)) ? path1Loc : path2Loc;
+        if(Mathf.Abs(path3Loc - path1Loc) > Mathf.Abs(path3Loc - path2Loc))
+        {
+            enemyStartPosition = path1Loc;
+            if (enemy.GetComponent<FlatformFollowPath>().faceright == false)
+            {
+                enemy.GetComponent<Enemy>().Flip();
+            }
+            enemy.GetComponent<FlatformFollowPath>().faceright = true;
+            //enemy.GetComponent<Enemy>().Flip();
+        }
+        else
+        {
+            enemyStartPosition = path2Loc;
+            if(enemy.GetComponent<FlatformFollowPath>().faceright == true)
+            {
+                enemy.GetComponent<Enemy>().Flip();
+            }
+            enemy.GetComponent<FlatformFollowPath>().faceright = false;
+        }
+        Debug.Log("Vị trí enemy: " + enemyStartPosition);
         //reset vi tri enemy
-        enemy.transform.position = new Vector3(enemyStartLocation, player.transform.position.y, enemy.transform.position.z);
+        enemy.transform.position = new Vector3(enemyStartPosition, enemy.transform.position.y, enemy.transform.position.z);
+        //enemy.GetComponent<FlatformFollowPath>().faceright = true
         enemy.GetComponent<Enemy>().meet = false;
         enemy.GetComponent<FlatformFollowPath>().speed = 1f;
 
         if (enemy.active == true)
         {
             enemy.SetActive(false);
+            //enemy.GetComponent<FlatformFollowPath>().faceright = true;
         }
         Debug.Log("số index là " + indexScene);
         if (indexScene == 2 || indexScene == 5 || indexScene == 4)

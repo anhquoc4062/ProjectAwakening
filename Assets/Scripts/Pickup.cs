@@ -52,6 +52,18 @@ public class Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GlobalManager.isPickuped[item.name] == false)
+        {
+            this.gameObject.SetActive(true);
+            this.GetComponent<Pickup>().enabled = true;
+        }
+        else
+        {
+
+            this.gameObject.SetActive(false);
+            this.GetComponent<Pickup>().enabled = true;
+        }
+        //Debug.Log(GlobalManager.isPickuped[item.name] + "of item name " + item.name);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -124,8 +136,24 @@ public class Pickup : MonoBehaviour
                                 inventory.slots[i].name = item.name;
                                 inventory.slots[i].GetComponent<Image>().sprite = this.GetComponent<SpriteRenderer>().sprite;
                                 inventory.slots[i].GetComponent<DragItems>().keyName = keyName;
-                                lootSound.Play();
+                                if (lootSound != null)
+                                {
+                                    lootSound.Play();
+                                }
                                 GlobalManager.isPickuped[item.name] = true;
+                                //neu do la bup be
+                                /*if(item.name.Substring(0,4) == "doll")
+                                {
+                                    int index = int.Parse(item.name.Substring(5, 1)) + 1;
+                                    if(index < 6)
+                                    {
+                                        string name = "doll0" + index;
+                                        GlobalManager.isPickuped[name] = false;
+
+                                        Debug.Log(GlobalManager.isPickuped[name]);
+                                    }
+                                }*/
+
                                 //gameObject.SetActive(false);
                             }
 
