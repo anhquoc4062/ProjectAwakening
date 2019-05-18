@@ -1714,7 +1714,7 @@ MonoBehaviour:
   item: {fileID: 680069649}
   textPickup:
   - a doll
-  lootSound: {fileID: 0}
+  lootSound: {fileID: 676453540}
   keyName: 
 --- !u!61 &680069652
 BoxCollider2D:
@@ -1733,7 +1733,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.64, y: 4.2}
+    oldSize: {x: 4.36, y: 6.39}
     newSize: {x: 2.64, y: 4.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3083,7 +3083,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0.6698113, g: 0.5538567, b: 0.15481488, a: 1}
+  m_Color: {r: 0.6981132, g: 0.48560423, b: 0, a: 1}
   m_Intensity: 120
   m_Range: 10
   m_SpotAngle: 89.079185

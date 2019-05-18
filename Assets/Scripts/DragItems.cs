@@ -128,7 +128,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         if (col.CompareTag("Puzzle"))
         {
             puzzleObject = col.gameObject;
-            Debug.Log(puzzleObject.name);
+            //Debug.Log(puzzleObject.name);
         }
     }
     void OnTriggerExit2D(Collider2D col)

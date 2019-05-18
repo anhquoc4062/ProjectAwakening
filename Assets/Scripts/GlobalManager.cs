@@ -25,9 +25,11 @@ public static class GlobalManager
         isPickuped["doll03"] = false;
         isPickuped["doll04"] = false;
         isPickuped["doll05"] = false;
+        isPickuped["match"] = false;
 
         isSolved = new Dictionary<string, bool>();
         isSolved["key_puzzle"] = false;
         isSolved["crowbar_puzzle"] = false;
+        isSolved["fire_puzzle"] = false;
     }
 }

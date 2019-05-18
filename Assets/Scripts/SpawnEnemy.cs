@@ -15,19 +15,29 @@ public class SpawnEnemy : MonoBehaviour
     public GameObject walleft;
     public GameObject wallright;
 
-    void SetLeftRightPosition()
+    void SetLeftRightPosition(int indexScene)
     {
+
         walleft = GameObject.FindGameObjectWithTag("wallLeft");
 
         wallright = GameObject.FindGameObjectWithTag("wallRight");
-        enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[0].position = new Vector3(walleft.transform.position.x, -2f, 0);
+        if (indexScene == 5 || indexScene == 4)
+        {
+            enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[0].position = new Vector3(walleft.transform.position.x, -1.5f, 0);
 
-        enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[1].position = new Vector3(wallright.transform.position.x, -2f, 0);
+            enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[1].position = new Vector3(wallright.transform.position.x, -1.5f, 0);
+        }
+        else
+        {
+            enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[0].position = new Vector3(walleft.transform.position.x, -2f, 0);
+
+            enemy.GetComponent<FlatformFollowPath>().thepath.listPoints[1].position = new Vector3(wallright.transform.position.x, -2f, 0);
+        }
     }
     void Awake()
     {
-        
-        SetLeftRightPosition();
+        int indexScene = SceneManager.GetActiveScene().buildIndex;
+        SetLeftRightPosition(indexScene);
 
         if (enemy.active == true)
         {
@@ -40,11 +50,11 @@ public class SpawnEnemy : MonoBehaviour
         //spaw vi tri player
         player.transform.position = new Vector3(GlobalManager.playerPosition, player.transform.position.y, 0);
 
-        SetLeftRightPosition();
-        // do whatever you like
 
         int indexScene = SceneManager.GetActiveScene().buildIndex;
 
+        SetLeftRightPosition(indexScene);
+        // do whatever you like
         
         float path1Loc = path1.transform.position.x;
         float path2Loc = path2.transform.position.x;

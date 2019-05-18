@@ -44,5 +44,13 @@ public class MoveScene : MonoBehaviour
         {
             SceneManager.LoadScene(5);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            SceneManager.LoadScene(6);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            SceneManager.LoadScene(7);
+        }
     }
 }
