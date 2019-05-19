@@ -68,7 +68,10 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
         if (keyName != "Sprite")
         {
             //puzzleObject.GetComponent<PuzzleSystem>().isSolved = true;
-            puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+            if (puzzleObject.GetComponent<PuzzleSystem>().puzzleSound != null)
+            {
+                puzzleObject.GetComponent<PuzzleSystem>().puzzleSound.Play();
+            }
 
         }
         else
@@ -122,18 +125,18 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                     {
                         if (gameObject.name.Substring(0, 4) == "doll")
                         {
+                            int index = int.Parse(gameObject.name.Substring(5, 1)) + 1;
                             solve();
                             GlobalManager.countDollBurned++;
-                            Debug.Log("So bup be dot duoc"+GlobalManager.countDollBurned);
+                            Debug.Log("So bup be dot duoc "+GlobalManager.countDollBurned);
 
-                            /*int index = int.Parse(gameObject.name.Substring(5, 1)) + 1;
                             if (index < 6)
                             {
                                 string name = "doll0" + index;
                                 GlobalManager.isPickuped[name] = false;
 
                                 Debug.Log(GlobalManager.isPickuped[name]);
-                            }*/
+                            }
                         }
                     }
                 }

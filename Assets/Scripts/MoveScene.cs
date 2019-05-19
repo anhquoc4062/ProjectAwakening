@@ -13,6 +13,10 @@ public class MoveScene : MonoBehaviour
     }
 
     // Update is called once per frame
+    public void GoToMainGame()
+    {
+        SceneManager.LoadScene(0);
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha0))
@@ -51,6 +55,22 @@ public class MoveScene : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha7))
         {
             SceneManager.LoadScene(7);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            SceneManager.LoadScene(8);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            SceneManager.LoadScene(9);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            SceneManager.LoadScene(10);
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            SceneManager.LoadScene(11);
         }
     }
 }

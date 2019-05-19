@@ -54,7 +54,6 @@ public class SpawnEnemy : MonoBehaviour
 
 
         int indexScene = SceneManager.GetActiveScene().buildIndex;
-
         SetLeftRightPosition(indexScene);
         // do whatever you like
         
@@ -81,7 +80,7 @@ public class SpawnEnemy : MonoBehaviour
             }
             enemy.GetComponent<FlatformFollowPath>().faceright = false;
         }
-        Debug.Log("Vị trí enemy: " + enemyStartPosition);
+        //Debug.Log("Vị trí enemy: " + enemyStartPosition);
         //reset vi tri enemy
         enemy.transform.position = new Vector3(enemyStartPosition, enemy.transform.position.y, enemy.transform.position.z);
         //enemy.GetComponent<FlatformFollowPath>().faceright = true
@@ -94,16 +93,38 @@ public class SpawnEnemy : MonoBehaviour
             //enemy.GetComponent<FlatformFollowPath>().faceright = true;
         }
         Debug.Log("số index là " + indexScene);
-        if (indexScene == 2 || indexScene == 5 || indexScene == 4)
+        if(indexScene == 4)
         {
-            int value = Random.Range(1, 3);
-            Debug.Log("số random là " + value);
-            if (value == 1)
+            if(GlobalManager.firstGoToToilet == true)
             {
-
-                enemy.SetActive(true);
+                GlobalManager.firstGoToToilet = false;
+            }
+            else
+            {
+                if (indexScene == 2 || indexScene == 5)
+                {
+                    int value = Random.Range(1, 3);
+                    Debug.Log("số random là " + value);
+                    if (value == 1)
+                    {
+                        enemy.SetActive(true);
+                    }
+                }
             }
         }
+        else
+        {
+            if (indexScene == 2 || indexScene == 5)
+            {
+                int value = Random.Range(1, 3);
+                Debug.Log("số random là " + value);
+                if (value == 1)
+                {
+                    enemy.SetActive(true);
+                }
+            }
+        }
+        
     }
     void Start()
     {
