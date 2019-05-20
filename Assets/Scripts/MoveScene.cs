@@ -73,4 +73,9 @@ public class MoveScene : MonoBehaviour
             SceneManager.LoadScene(11);
         }
     }
+    public void QUIT_GAME()
+    {
+        Debug.Log("Exit Success");
+        Application.Quit();
+    }
 }
