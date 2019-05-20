@@ -404,7 +404,7 @@ MonoBehaviour:
   isLocked: 0
   openSound: {fileID: 0}
   lockedSound: {fileID: 0}
-  playerPosition: 16.11029
+  playerPosition: 4.54594
   player: {fileID: 0}
   reactLocked: 
   puzzleObject: {fileID: 0}

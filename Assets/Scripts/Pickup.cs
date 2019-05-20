@@ -75,6 +75,7 @@ public class Pickup : MonoBehaviour
                                 this.transform.position = new Vector2(0, 0);
                                 inventory.slots[i].name = item.name;
                                 inventory.slots[i].GetComponent<Image>().sprite = this.GetComponent<SpriteRenderer>().sprite;
+                                inventory.slots[i].GetComponent<Image>().color = this.GetComponent<SpriteRenderer>().color;
                                 inventory.slots[i].GetComponent<DragItems>().keyName = keyName;
                                 if (lootSound != null)
                                 {

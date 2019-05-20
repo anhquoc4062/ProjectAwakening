@@ -6,11 +6,13 @@ public static class GlobalManager
 {
     public static Dictionary<string, bool> isPickuped { get; set; }
     public static Dictionary<string, bool> isSolved { get; set; }
+    public static Dictionary<int, bool> firstGoTo { get; set; }
 
     public static float playerPosition { get; set; }
     public static int countDollBurned { get; set; }
     public static int countSquired { get; set; }
-    public static bool firstGoToToilet { get; set; }
+    public static bool lastSpawned { get; set; }
+    public static bool firstMeetEnemy { get; set; }
     // Start is called before the first frame update
 
     static GlobalManager()
@@ -18,7 +20,14 @@ public static class GlobalManager
         playerPosition = 0;
         countDollBurned = 0;
         countSquired = 0;
-        firstGoToToilet = true;
+
+        firstGoTo = new Dictionary<int, bool>();
+        firstGoTo[2] = true;// front 3
+        //firstGoTo[3] = true;// side 3
+        //firstGoTo[4] = true;// toilet 3
+
+        lastSpawned = false;
+        firstMeetEnemy = false;
 
         isPickuped = new Dictionary<string, bool>();
 

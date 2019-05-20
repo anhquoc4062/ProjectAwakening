@@ -173,16 +173,54 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     {
         if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
         {
-            puzzleObject = col.gameObject;
-            Debug.Log(puzzleObject.name);
+            if (gameObject.name.Length > 6)
+            {
+                if (gameObject.name.Substring(0, 7) == "bandage")
+                {
+                    if (col.CompareTag("Player"))
+                    {
+                        puzzleObject = col.gameObject;
+                        Debug.Log(puzzleObject.name);
+                    }
+                }
+                else
+                {
+                    puzzleObject = col.gameObject;
+                    Debug.Log(puzzleObject.name);
+                }
+            }
+            else
+            {
+                puzzleObject = col.gameObject;
+                Debug.Log(puzzleObject.name);
+            }
         }
     }
     void OnTriggerStay2D(Collider2D col)
     {
         if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
         {
-            puzzleObject = col.gameObject;
-            //Debug.Log(puzzleObject.name);
+            if(gameObject.name.Length > 6)
+            {
+                if (gameObject.name.Substring(0, 7) == "bandage")
+                {
+                    if (col.CompareTag("Player"))
+                    {
+                        puzzleObject = col.gameObject;
+                        Debug.Log(puzzleObject.name);
+                    }
+                }
+                else
+                {
+                    puzzleObject = col.gameObject;
+                    Debug.Log(puzzleObject.name);
+                }
+            }
+            else
+            {
+                puzzleObject = col.gameObject;
+                Debug.Log(puzzleObject.name);
+            }
         }
     }
     void OnTriggerExit2D(Collider2D col)

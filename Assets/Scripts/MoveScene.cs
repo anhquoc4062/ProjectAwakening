@@ -15,7 +15,7 @@ public class MoveScene : MonoBehaviour
     // Update is called once per frame
     public void GoToMainGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(12);
     }
     void Update()
     {

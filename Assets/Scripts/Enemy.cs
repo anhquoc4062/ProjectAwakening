@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
             range = 20 ;
             meet = true;
             pathd.meetPlayer = true ;
-            Flat.speed = 5f ;
+            Flat.speed = 4.5f ;
             //tăng tốc enemy cho ngầu thôi
             /*if(dis < 6){
                 Flat.speed = 4f ;

@@ -49,6 +49,8 @@ public class SpawnEnemy : MonoBehaviour
     private void OnSceneLoaded(Scene aScene, LoadSceneMode aMode)
     {
 
+        Debug.Log("gias trij lastSpawn la " + GlobalManager.lastSpawned);
+
         //spaw vi tri player
         player.transform.position = new Vector3(GlobalManager.playerPosition, player.transform.position.y, 0);
 
@@ -93,38 +95,40 @@ public class SpawnEnemy : MonoBehaviour
             //enemy.GetComponent<FlatformFollowPath>().faceright = true;
         }
         Debug.Log("số index là " + indexScene);
-        if(indexScene == 4)
+        if(indexScene == 2 || indexScene == 5 || indexScene == 4 || indexScene == 3)
         {
-            if(GlobalManager.firstGoToToilet == true)
+            if(GlobalManager.firstMeetEnemy == false)
             {
-                GlobalManager.firstGoToToilet = false;
+                if(indexScene == 2)
+                {
+                    enemy.SetActive(true);
+                    GlobalManager.firstMeetEnemy = true;
+                    GlobalManager.lastSpawned = true;
+                }
             }
             else
             {
-                if (indexScene == 2 || indexScene == 5)
+                if (GlobalManager.lastSpawned == false)
                 {
-                    int value = Random.Range(1, 3);
-                    Debug.Log("số random là " + value);
+                    int value = Random.Range(1, 2);
+                    Debug.Log("So random la " + value);
                     if (value == 1)
                     {
                         enemy.SetActive(true);
+                        GlobalManager.lastSpawned = true;
                     }
                 }
+                else
+                {
+                    GlobalManager.lastSpawned = false;
+                }
             }
+            
         }
         else
         {
-            if (indexScene == 2 || indexScene == 5)
-            {
-                int value = Random.Range(1, 3);
-                Debug.Log("số random là " + value);
-                if (value == 1)
-                {
-                    enemy.SetActive(true);
-                }
-            }
+            GlobalManager.lastSpawned = false;
         }
-        
     }
     void Start()
     {
