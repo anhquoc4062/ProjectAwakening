@@ -1344,7 +1344,7 @@ MonoBehaviour:
   item: {fileID: 825443194}
   textPickup:
   - a bandage
-  lootSound: {fileID: 0}
+  lootSound: {fileID: 676453540}
   keyName: Sprite
 --- !u!61 &825443197
 BoxCollider2D:
