@@ -6,16 +6,20 @@ using UnityEngine.SceneManagement;
 public class MoveScene : MonoBehaviour
 {
     public GetLeftRightPosition pos;
-    // Start is called before the first frame update
+    // Start GlobalManager.is called before the first frame update
     void Start()
     {
         //pos = GameObject.Find("GetLeftRightPosition").GetComponent<GetLeftRightPosition>();
     }
 
-    // Update is called once per frame
+    // Update GlobalManager.is called once per frame
     public void GoToMainGame()
     {
         SceneManager.LoadScene(12);
+    }
+    public void Restart()
+    {
+        
     }
     void Update()
     {

@@ -13,6 +13,7 @@ public static class GlobalManager
     public static int countSquired { get; set; }
     public static bool lastSpawned { get; set; }
     public static bool firstMeetEnemy { get; set; }
+    public static bool meetPlayer { get; set; }
     // Start is called before the first frame update
 
     static GlobalManager()
@@ -28,6 +29,7 @@ public static class GlobalManager
 
         lastSpawned = false;
         firstMeetEnemy = false;
+        meetPlayer = false;
 
         isPickuped = new Dictionary<string, bool>();
 

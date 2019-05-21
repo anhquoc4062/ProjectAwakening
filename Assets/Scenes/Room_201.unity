@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 5
   isLocked: 0
-  openSound: {fileID: 0}
+  openSound: {fileID: 843310473}
   lockedSound: {fileID: 0}
   playerPosition: 35.28109
   player: {fileID: 0}
@@ -2698,7 +2698,7 @@ MonoBehaviour:
   item: {fileID: 1783113202}
   textPickup:
   - a doll
-  lootSound: {fileID: 0}
+  lootSound: {fileID: 676453540}
   keyName: fire_puzzle
 --- !u!61 &1783113205
 BoxCollider2D:

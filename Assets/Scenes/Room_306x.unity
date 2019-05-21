@@ -217,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 12
   isLocked: 0
-  openSound: {fileID: 0}
+  openSound: {fileID: 843310473}
   lockedSound: {fileID: 0}
   playerPosition: 11.5
   player: {fileID: 0}
@@ -2062,7 +2062,7 @@ MonoBehaviour:
   item: {fileID: 1021429531}
   textPickup:
   - a doll
-  lootSound: {fileID: 0}
+  lootSound: {fileID: 676453540}
   keyName: fire_puzzle
 --- !u!61 &1021429534
 BoxCollider2D:
@@ -2877,7 +2877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1589219962}
   textPickup:
-  - a hammer
+  - a cutter
   lootSound: {fileID: 593011840}
   keyName: stair_puzzle
 --- !u!61 &1589219965

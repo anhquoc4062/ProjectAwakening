@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     public GameObject balo;
     public bool baloIsOn = false;
 
+    public AudioSource footstepEnemy;
+
     public TextMeshProUGUI charText;
     public Image textBg;
     // Start is called before the first frame update
@@ -188,6 +190,14 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("RangeSound"))
+        {
+            Debug.Log("chạm âm thanh");
+            footstepEnemy.Play();
+        }
+    }
     void Flip()
     {
         faceright = !faceright;

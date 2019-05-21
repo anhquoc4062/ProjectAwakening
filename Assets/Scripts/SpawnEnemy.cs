@@ -48,7 +48,10 @@ public class SpawnEnemy : MonoBehaviour
     }
     private void OnSceneLoaded(Scene aScene, LoadSceneMode aMode)
     {
-
+        if(GlobalManager.meetPlayer == true)
+        {
+            GlobalManager.meetPlayer = false;
+        }
         Debug.Log("gias trij lastSpawn la " + GlobalManager.lastSpawned);
 
         //spaw vi tri player
@@ -102,7 +105,6 @@ public class SpawnEnemy : MonoBehaviour
                 if(indexScene == 2)
                 {
                     enemy.SetActive(true);
-                    GlobalManager.firstMeetEnemy = true;
                     GlobalManager.lastSpawned = true;
                 }
             }
@@ -110,7 +112,7 @@ public class SpawnEnemy : MonoBehaviour
             {
                 if (GlobalManager.lastSpawned == false)
                 {
-                    int value = Random.Range(1, 2);
+                    int value = Random.Range(1, 3);
                     Debug.Log("So random la " + value);
                     if (value == 1)
                     {

@@ -79,19 +79,29 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
             if(GlobalManager.countSquired == 0)
             {
                 StartCoroutine(showText());
+                objectBeingDragged.transform.position = startPosition;
+                objectBeingDragged.transform.localScale = startSize;
+                objectBeingDragged.layer = LayerMask.NameToLayer("Default");
+                objectBeingDragged = null;
+                this.GetComponent<BoxCollider2D>().enabled = false;
+
+                player.r2.isKinematic = false;
             }
             else
             {
                 GlobalManager.countSquired = 0;
             }
         }
-        GlobalManager.isSolved[puzzleObject.name] = true;
+        if (puzzleObject != null)
+        {
+            GlobalManager.isSolved[puzzleObject.name] = true;
+        }
         /*if (puzzleObject.name == "fire_puzzle" && GlobalManager.isSolved["fire_puzzle"] == true)
         {
             puzzleObject.name = "doll01_puzzle";
         }*/
         //Debug.Log(puzzleObject.name + "_called");
-        Debug.Log(GlobalManager.isSolved[puzzleObject.name]);
+        //Debug.Log(GlobalManager.isSolved[puzzleObject.name]);
     }
 
     // called when there has been a drag and the user lets go
@@ -119,6 +129,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                         else
                         {
                             StartCoroutine(showText());
+
                         }
                     }
                     else
@@ -128,6 +139,7 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
                             int index = int.Parse(gameObject.name.Substring(5, 1)) + 1;
                             solve();
                             GlobalManager.countDollBurned++;
+                            GameObject.Find("Scream").GetComponent<AudioSource>().Play();
                             Debug.Log("So bup be dot duoc "+GlobalManager.countDollBurned);
 
                             if (index < 6)
@@ -171,25 +183,28 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
+        if (gameObject.name.Length > 6)
         {
-            if (gameObject.name.Length > 6)
+            if (gameObject.name.Substring(0, 7) == "bandage")
             {
-                if (gameObject.name.Substring(0, 7) == "bandage")
-                {
-                    if (col.CompareTag("Player"))
-                    {
-                        puzzleObject = col.gameObject;
-                        Debug.Log(puzzleObject.name);
-                    }
-                }
-                else
+                if (col.CompareTag("Player"))
                 {
                     puzzleObject = col.gameObject;
                     Debug.Log(puzzleObject.name);
                 }
             }
             else
+            {
+                if (col.CompareTag("Puzzle"))
+                {
+                    puzzleObject = col.gameObject;
+                    Debug.Log(puzzleObject.name);
+                }
+            }
+        }
+        else
+        {
+            if (col.CompareTag("Puzzle"))
             {
                 puzzleObject = col.gameObject;
                 Debug.Log(puzzleObject.name);
@@ -198,25 +213,27 @@ public class DragItems : MonoBehaviour, IBeginDragHandler,IDragHandler, IEndDrag
     }
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.CompareTag("Puzzle") || col.CompareTag("Player"))
+        if(gameObject.name.Length > 6)
         {
-            if(gameObject.name.Length > 6)
+            if (gameObject.name.Substring(0, 7) == "bandage")
             {
-                if (gameObject.name.Substring(0, 7) == "bandage")
-                {
-                    if (col.CompareTag("Player"))
-                    {
-                        puzzleObject = col.gameObject;
-                        Debug.Log(puzzleObject.name);
-                    }
-                }
-                else
+                if (col.CompareTag("Player"))
                 {
                     puzzleObject = col.gameObject;
                     Debug.Log(puzzleObject.name);
                 }
             }
             else
+            {
+                if(col.CompareTag("Puzzle")){
+                    puzzleObject = col.gameObject;
+                    Debug.Log(puzzleObject.name);
+                }
+            }
+        }
+        else
+        {
+            if(col.CompareTag("Puzzle"))
             {
                 puzzleObject = col.gameObject;
                 Debug.Log(puzzleObject.name);

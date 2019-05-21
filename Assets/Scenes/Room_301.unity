@@ -423,7 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 5
   isLocked: 0
-  openSound: {fileID: 0}
+  openSound: {fileID: 843310473}
   lockedSound: {fileID: 0}
   playerPosition: 17.03
   player: {fileID: 0}

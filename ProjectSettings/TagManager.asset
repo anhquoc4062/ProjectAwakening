@@ -15,6 +15,7 @@ TagManager:
   - heart
   - GlobalManager
   - EnemyUI
+  - RangeSound
   layers:
   - Default
   - TransparentFX

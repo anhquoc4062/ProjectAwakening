@@ -2019,7 +2019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 11
   isLocked: 0
-  openSound: {fileID: 0}
+  openSound: {fileID: 1074259496}
   lockedSound: {fileID: 0}
   playerPosition: 12.29185
   player: {fileID: 0}

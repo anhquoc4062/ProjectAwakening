@@ -34,12 +34,13 @@ public class TriggerEnemy : MonoBehaviour
                     enemy.meet = true ;
                     enemy.Squir = true ;
                     //player.bleeding.SetActive(true);
-                    GlobalManager.countSquired++;
                     //TimerScript.beaten = true ;
                     //StartCoroutine(waiting(5f));
                     //enemy.afterhit = false ;
                     //enemy.Flat.enabled = true ;
                     StartCoroutine(Hit(0.03f));
+
+                Debug.Log("So lan chem la " + GlobalManager.countSquired);
                 }
             }
     }

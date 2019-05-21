@@ -590,7 +590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 101248146}
   textPickup:
-  - a bandage
+  - an umbrella
   lootSound: {fileID: 1715513212}
   keyName: fan_puzzle
 --- !u!61 &101248148
@@ -4484,7 +4484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 2
   isLocked: 0
-  openSound: {fileID: 0}
+  openSound: {fileID: 1369096393}
   lockedSound: {fileID: 0}
   playerPosition: 45.85594
   player: {fileID: 0}

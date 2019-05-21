@@ -25,7 +25,8 @@ public class Enemy : MonoBehaviour
     //sound
     public AudioSource stab;
     public AudioSource laugh;
-    //public AudioSource footstep;
+    public AudioSource footstep;
+    public AudioSource chasing;
     void Start()
     {
         pathd = GameObject.FindGameObjectWithTag("ThePath").GetComponent<Pathd>() ;
@@ -44,12 +45,36 @@ public class Enemy : MonoBehaviour
     {
         dis = Mathf.Abs(this.transform.position.x - player.transform.position.x) ;
         //tức là khi trong tầm hoạt động bot sẽ đuổi theo chém 1 hit
+        /*if(dis < range * 2)
+        {
+            footstep.Play();
+        }*/
+        if(meet == true)
+        {
+            if(GlobalManager.firstMeetEnemy == false)
+            {
+                GlobalManager.firstMeetEnemy = true;
+            }
+
+            if (!chasing.isPlaying)
+            {
+                chasing.Play();
+            }
+        }
+        else
+        {
+            if (chasing.isPlaying)
+            {
+                chasing.Stop();
+            }
+        }
         if(dis < range){
             //khi khoản cách dưới 15 sẽ bắt đầu chạy nhanh và tăng tầm chạy lên 20 , tăng tốc độ enemy 
             range = 20 ;
             meet = true;
             pathd.meetPlayer = true ;
-            Flat.speed = 4.5f ;
+            Flat.speed = 4.3f ;
+            GlobalManager.meetPlayer = true;
             //tăng tốc enemy cho ngầu thôi
             /*if(dis < 6){
                 Flat.speed = 4f ;
@@ -57,24 +82,29 @@ public class Enemy : MonoBehaviour
         }
         // gán lại range = -1 để tránh sự kiện bot đuổi theo khi vừa chém
         if(range == -1){
-            Debug.Log("sau khi chém đợi 3s mới mở khóa nhân vật");
 
             time += Time.deltaTime;
             if(time < 3f && time > 0.5f){
                 Flat.enabled = false ;
                 afterhit = true;
 
-            }else{
+            }
+            else{
                 Flat.enabled = true ;
                 afterhit = false;
                 laugh.Play();
             }
 
             if(time  > random){
-                Debug.Log("test 5s");
                 range = 15 ;
                 time = 0 ;
             }
+        }
+
+        if(Squir == true)
+        {
+            GlobalManager.countSquired++;
+            Debug.Log("Số lần chém là " + GlobalManager.countSquired);
         }
         anim.SetBool("after" , afterhit) ;
         anim.SetBool("meet" , meet) ;
@@ -98,7 +128,6 @@ public class Enemy : MonoBehaviour
     IEnumerator Wait(float x)
     {
         yield return new WaitForSeconds(x);
-        Debug.Log("đợi 5s");
         range = 20 ;
         
     }
